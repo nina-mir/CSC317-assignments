@@ -28,8 +28,8 @@ Note: It is a large file of 6.9 GB. It will take minutes to hours depending on y
 
 The **USER NAME** and **PASSWORD** of the resultant Ubuntu OS (you'll need these crednetials to login!): 
 
-username = student
-password = student
+* username = student
+* password = student
 
 After the OVA file is downloaded. Go the main menu of Virtualbox. Now, press on **Import** button on the right side as seen below.
 
