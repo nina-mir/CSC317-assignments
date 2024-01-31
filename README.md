@@ -61,7 +61,7 @@ Now look around Ubuntu and figure things out!
 
 <img src="images-setup/run_the_VM.png" width="500">
 
-###<a id="second">MacBook M1, M2 chipset</a>
+### <a id="second">MacBook M1, M2 chipset</a>
 
   
 
