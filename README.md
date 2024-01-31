@@ -67,7 +67,7 @@ Folks with an ARM cpu architecture cannot use VirtualBox to install Ubuntu OS. Y
 
 **Option. 1** -- **buy Parallels**. It is about $50 for students. https://www.parallels.com/products/desktop/buy/?full
 
-After buying it, **install** it. Then, watch the following video on YouTube on how to **install Ubuntu** on your Macbook.
+Watch the following video on YouTube on how to **install Ubuntu** on your Macbook. The video assumed you have already installed Parallels. 
 
 link: https://youtu.be/EiO_CHfSn2s?si=_XTa1OQzeMoMnmLv
 
