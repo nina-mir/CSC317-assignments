@@ -25,6 +25,9 @@ Click on **Tools**. Then, click on File>Preferneces>Extensions. Now, click on th
 In this step, we will install Ubuntu 22.04 LTS	Jammy Jellyfish using the VirtualBox. First, you need to downloand an OVA file containing an image of Ubuntu OS that has VSCode and Node.js already installed on it from this link: https://sfsu.app.box.com/v/csc317webdevova 
 
 Note: It is a large file of 6.9 GB. It will take minutes to hours depending on your internet connection to download. 
+The USER NAME and PASSWORD of the resultant Ubuntu OS (you'll need these crednetials to login!): 
+username = student
+password = student
 
 After the OVA file is downloaded. Go the main menu of Virtualbox. Now, press on **Import** button on the right side as seen below.
 
@@ -50,6 +53,8 @@ If all the previous steps are successfully completed, you should see a WebDec202
 <img src="images-setup/press_on_new_machine.png" width="500">
 
 After selecting you new _machine_, you should see a similar menue. Click on **_Start_** button to boot your Ubuntu machine.
+After Ubuntu is booted, enter the password provided above: student. 
+Now look around Ubuntu and figure things out! 
 
 <img src="images-setup/run_the_VM.png" width="500">
 
