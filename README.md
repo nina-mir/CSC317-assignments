@@ -60,8 +60,10 @@ After Ubuntu is booted, enter the password provided above: student.
 Now look around Ubuntu and figure things out! 
 
 <img src="images-setup/run_the_VM.png" width="500">
-<a id="second></a>
-###  MacBook M1, M2 chipset
+
+###<a id="second">MacBook M1, M2 chipset</a>
+
+  
 
 Folks with an ARM cpu architecture cannot use VirtualBox to install Ubuntu OS. You have other options. 
 
