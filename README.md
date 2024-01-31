@@ -2,9 +2,10 @@
 ### A guide to install Ubuntu OS in VirtualBox
 *The information in this guide is based on the work/materials by Robert Bierman and Andrew Scott of SF State CS Dept re: CSC 317 course. (Additional information is included from other online sources.)*
 
-This guid has two different sections: Intel CPU architecture and MacBook M1/M2/M3. Refer to the section that matched your computer's CPU architecture, please. 
+This guid has two different sections: [intel](#first) architecture and [MacBook M1/M2](#second). Refer to the section that matched your computer's CPU architecture, please. 
 
-### Intel 64bit 
+### <a id="first">Intel 64bit</a>
+
 **Step. 1** download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the following link. Refer to the image below from the same link for more info.
 
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
@@ -59,9 +60,8 @@ After Ubuntu is booted, enter the password provided above: student.
 Now look around Ubuntu and figure things out! 
 
 <img src="images-setup/run_the_VM.png" width="500">
-
-
-### MacBook M1, M2 chipset
+<a id="second></a>
+###  MacBook M1, M2 chipset
 
 Folks with an ARM cpu architecture cannot use VirtualBox to install Ubuntu OS. You have other options. 
 
