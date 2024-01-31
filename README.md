@@ -5,11 +5,15 @@
 This guid has two different sections: Intel CPU architecture and MacBook M1/M2/M3. Refer to the section that matched your computer's CPU architecture, please. 
 
 ### Intel 64bit 
-**Step. 1** download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the followin link. Refer to the image below from the same link for more info.
+**Step. 1** download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the following link. Refer to the image below from the same link for more info.
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 <img src="images-setup/virtualbox-6.1.2.png" width="400">
 
-First, install VirtualBox on your machine. Then, click on its icon. You should see the following image. 
+First, install VirtualBox on your machine. Then, click on its icon. 
+
+**Note for Mac users with an Intel CPU**: the installation step may fail for you due to a known issue with the hardware. In that case, you need to refer to slides 6 & 7 on the PDF file included in this repo  <a href="317 Unit 01 - Setup v4.pdf">"317 Unit 01 - Setup v4.pdf"</a>
+
+You should see the following image. 
 <img src="images-setup/vbox-welcome.png" width="400">
 
 Click on **Tools**. Then, click on File>Preferneces>Extensions. Now, click on the plus button to add the Extension Package file that you downloaded earlier. Press OK and exit. 
