@@ -6,7 +6,9 @@ This guid has two different sections: Intel CPU architecture and MacBook M1/M2/M
 
 ### Intel 64bit 
 **Step. 1** download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the following link. Refer to the image below from the same link for more info.
+
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+
 <img src="images-setup/virtualbox-6.1.2.png" width="400">
 
 First, install VirtualBox on your machine. 
@@ -25,6 +27,7 @@ In this step, we will install Ubuntu 22.04 LTS	Jammy Jellyfish using the Virtual
 Note: It is a large file of 6.9 GB. It will take minutes to hours depending on your internet connection to download. 
 
 After the OVA file is downloaded. Go the main menu of Virtualbox. Now, press on **Import** button on the right side as seen below.
+
 <img src="images-setup/Import-virtual-box.png" width="500">
 
 Now, press on the folder button as seen below and select the OVA file on your hard drive. Then, press **Next**.
@@ -67,9 +70,10 @@ Follow this link to download it: https://mac.getutm.app/
 
 Installation guide: https://docs.getutm.app/guides/ubuntu/
 
-Other sources that could help you: 
-text -- https://jun1okamura.medium.com/install-ubuntu-on-mac-m1-powered-by-utm-499aba3ba7e9
-video/text -- https://techyrick.com/installing-ubuntu-on-utm-apple-m1-m2/
+**Other sources that could help**: 
+_text _ -- https://jun1okamura.medium.com/install-ubuntu-on-mac-m1-powered-by-utm-499aba3ba7e9
+
+_video/text_ -- https://techyrick.com/installing-ubuntu-on-utm-apple-m1-m2/
 
 ### Note: If you cannot install Ubuntu OS on your computer you can always checkout a Windows laptop from the library and follows the instructions for Intel chips above. 
 
