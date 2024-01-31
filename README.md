@@ -9,4 +9,4 @@ This guid has two different sections: Intel CPU architecture and MacBook M1/M2/M
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 <img src="images-setup/virtualbox-6.1.2.png" width="400">
 
-Install VirtualBox on your machine. click on its icon. 
+First, install VirtualBox on your machine. Then, click on its icon. Click on Tools. Then, click on 
