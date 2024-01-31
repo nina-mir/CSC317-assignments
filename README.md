@@ -9,12 +9,13 @@ This guid has two different sections: Intel CPU architecture and MacBook M1/M2/M
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 <img src="images-setup/virtualbox-6.1.2.png" width="400">
 
-First, install VirtualBox on your machine. Then, click on its icon. 
+First, install VirtualBox on your machine. 
 
 **Note for Mac users with an Intel CPU**: the installation step may fail for you due to a known issue with the hardware. In that case, you need to refer to slides 6 & 7 on the PDF file included in this repo  <a href="317 Unit 01 - Setup v4.pdf">"317 Unit 01 - Setup v4.pdf"</a>
 
-You should see the following image. 
-<img src="images-setup/vbox-welcome.png" width="400">
+Upon a successfulinstallation, open VirtualBox program on your computer. You should see the following image. 
+
+<img src="images-setup/vbox-welcome.png" width="500">
 
 Click on **Tools**. Then, click on File>Preferneces>Extensions. Now, click on the plus button to add the Extension Package file that you downloaded earlier. Press OK and exit. 
 
