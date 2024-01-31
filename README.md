@@ -51,6 +51,20 @@ After selecting you new _machine_, you should see a similar menue. Click on **_S
 <img src="images-setup/run_the_VM.png" width="500">
 
 
+### MacBook M1, M2 chipset
+
+Folks with an ARM cpu architecture cannot use VirtualBox to install Ubuntu OS. You have other options. 
+**Option. 1** -- buy Parallels. It is about $50 for students. https://www.parallels.com/products/desktop/buy/?full
+After buying it, install it. Then, watch the following video on YouTube on how to install Ubuntu on your Macbook.
+link: https://youtu.be/EiO_CHfSn2s?si=_XTa1OQzeMoMnmLv
+
+Option. 2 -- use a free open-source application. 
+
+
+
+
+
+
 
 
 
