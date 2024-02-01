@@ -2,7 +2,7 @@
 ### A guide to install Ubuntu OS in VirtualBox
 *The information in this guide is based on the work/materials by Robert Bierman and Andrew Scott of SF State CS Dept re: CSC 317 course. (Additional information is included from other online sources.)*
 
-This guid has two different sections: [intel](#first) architecture and [MacBook M1/M2](#second). Refer to the section that matched your computer's CPU architecture, please. 
+This guid has two different sections: [intel](#first) architecture and [MacBook M1/M2](#second). Refer to the section that matches your computer's CPU architecture, please. 
 
 ### <a id="first">Intel 64bit</a>
 
