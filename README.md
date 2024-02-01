@@ -1,7 +1,20 @@
 # Ubuntu-setup-virtualbox
 ### A guide to install Ubuntu OS in VirtualBox
 *The information in this guide is based on the work/materials by Robert Bierman and Andrew Scott of SF State CS Dept re: CSC 317 course. (Additional information is included from other online sources.)*
+***
+### A short exaplnation from IBM:
+#### What is virtualization?
+source: https://www.ibm.com/topics/virtualization
 
+Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
+
+Virtualization uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer—processors, memory, storage and more—to be divided into multiple virtual computers, commonly called virtual machines (VMs). Each VM runs its own operating system (OS) and behaves like an independent computer, even though it is running on just a portion of the actual underlying computer hardware.
+
+It follows that virtualization enables more efficient utilization of physical computer hardware and allows a greater return on an organization’s hardware investment.
+
+Today, virtualization is a standard practice in enterprise IT architecture. It is also the technology that drives cloud computing economics. Virtualization enables cloud providers to serve users with their existing physical computer hardware; it enables cloud users to purchase only the computing resources they need when they need it, and to scale those resources cost-effectively as their workloads grow.
+***
+Now read the guide: 
 This guid has two different sections: [intel](#first) architecture and [MacBook M1/M2](#second). Refer to the section that matches your computer's CPU architecture, please. 
 
 ### <a id="first">Intel 64bit</a>
