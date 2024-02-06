@@ -7,7 +7,7 @@ Assuming you got access to a Linux Ubuntu OS machine that you were supposed to m
 4. change your working directory to directory _CSC-317_ that you made in step.2
 5. if you have VScode, run (that period symbol is important!)
      ```
-  $ code .
+       $ code .
      ````
      to open the content of CSC-317 inside VScode
    note: if you prefer other editors, feel free to use whatever you like. But, this write-up assumes you are using VScode.
@@ -43,8 +43,12 @@ you can decide which one you prefer.
 20. after installing express, run the command in step.15 above again
 21. repeat step.8 above
 22. you should see your answers from step.9.
-23. go to VScode and compare the two JS files with each other. They both do the same job. Which one would you prefer as a web developer and why?
-    write your answer to step.23 in a sperate aragraph after the screenshot of step.9 and/or the optional step.12.
+23. go to VScode and compare the two JS files with each other. They both do the same job. Now, answer this following question:
+
+    Which one would you prefer as a web developer and why? 
+
+    Type your answer in a sperate aragraph after the screenshot of step.9 and/or the optional step.12.
+
     Again, steps.11 and 12 are optional!
 
     
