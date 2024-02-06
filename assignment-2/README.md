@@ -18,7 +18,24 @@ Assuming you got access to a Linux Ubuntu OS machine that you were supposed to m
    if nothing shows up, you need to install node. source: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 7. run node:
    ```
-   node 
+   node server_node_only.js
+   ```
+8. open your browser and navigate to ``` http://localhost:3000/ ```
+in this step, you will be answering the question on this page by modifying the index.html file that is already accessible on your VScode.
+Navigate to VScode and remove the ___ placeholder character and write your own answers.
+
+     At any time during this prcess, you can go to your browser tab and refresh the page to see you answers reflected on the browser.
+Note: Install Google Chrome on your Ubuntu OS. Check this resource: https://www.cyberciti.biz/faq/how-to-install-google-chrome-in-ubuntu-linux-12-xx-13-xx/
+
+9. Follow the instrcution on index.html and take a screen shot of your answer. The screen shot needs to be included in a PDF report for ths assignment to Canvas along with your name/SFSU ID, please!
+10. After finishing steps.1-10, navigate to ``` http://localhost:3000/about```
+11. [Optional] you are invited to offer reflections that you may have so far. Anything is cool! You can even write about a project idea that keeps you excited!
+12. [Optional] you can offer reflections by modifying the about.html file the same way you modified index.html in the earlier steps.
+13. go to your editor and open server_node_only.js file and inspect the code.
+14. go to your terminal CL where node engine is running. exit node by pressing ```ctrl + c```
+15. now, run: ``` node  
+
+
 
    
    
