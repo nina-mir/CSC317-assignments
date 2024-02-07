@@ -43,7 +43,7 @@ Navigate to VScode and remove the ___ placeholder character and write your own a
      At any time during this prcess, you can go to your browser tab and refresh the page to see you answers reflected on the browser.
 Note: It's recommended to install Google Chrome on your Ubuntu OS. Check this [resource](https://itsfoss.com/install-chrome-ubuntu/)
 
-10. Follow the instrcution on index.html and take a screen shot of your answer. The screen shot needs to be included on a single page in a PDF report for ths assignment to Canvas along with your name/SFSU ID, please! Make sure your screenshot is clear and easily readable. You may need to take 2 screenshots for a better visibility. Keep in mind, if I can not read your screenshot easily, you will lose marks. **Make sure it looks nice and clear.**
+10. Follow the instrcution on index.html and take a screen shot of your answer. The screen shot needs to be included on a single page in a PDF report for ths assignment to Canvas along with **your name/SFSU ID** on the header section of each page of your report, please! Make sure your screenshot is clear and easily readable. You may need to take 2 screenshots for a better visibility. Keep in mind, if I can not read your screenshot easily, you will lose marks. **Make sure it looks nice and clear.**
 11. After finishing steps.1-10, navigate to ``` http://localhost:3000/about```
 12. **[Optional]** you are invited to offer reflections that you may have so far. Anything is cool! You can even write about a project idea that keeps you excited!
 13. **[Optional]** you can offer reflections by modifying the about.html file the same way you modified index.html in the earlier steps.
