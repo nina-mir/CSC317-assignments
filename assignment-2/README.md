@@ -56,7 +56,7 @@ Note: It's recommended to install Google Chrome on your Ubuntu OS. Check this [r
 20. in short, you should either use ``` $ npm install express
 ``` or ``` $ npm install express --no-save ```
 you can decide which one you prefer.
-21. after installing express, run the command in **step.17** above again
+21. after successfully installing express, run the command in **step.17** again
 22. navigate to your localhost adress in your browser
 23. you should see your answers from earlier on the browser.
 24. go to VScode and compare the two JS files with each other. They both do the same job. Now, answer this following question:
