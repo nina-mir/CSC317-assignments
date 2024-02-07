@@ -41,7 +41,7 @@ in this step, you will be answering the question on this page by modifying the i
 Navigate to VScode and remove the ___ placeholder character and write your own answers.
 
      At any time during this prcess, you can go to your browser tab and refresh the page to see you answers reflected on the browser.
-Note: It's recommended to install Google Chrome on your Ubuntu OS. Check this resource: https://www.cyberciti.biz/faq/how-to-install-google-chrome-in-ubuntu-linux-12-xx-13-xx/
+Note: It's recommended to install Google Chrome on your Ubuntu OS. Check this [resource](https://itsfoss.com/install-chrome-ubuntu/)
 
 10. Follow the instrcution on index.html and take a screen shot of your answer. The screen shot needs to be included on a single page in a PDF report for ths assignment to Canvas along with your name/SFSU ID, please! Make sure your screenshot is clear and easily readable. You may need to take 2 screenshots for a better visibility. Keep in mind, if I can not read your screenshot easily, you will lose marks. **Make sure it looks nice and clear.**
 11. After finishing steps.1-10, navigate to ``` http://localhost:3000/about```
