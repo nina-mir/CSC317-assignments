@@ -1,6 +1,7 @@
-Assuming you got access to a Linux Ubuntu OS machine that you were supposed to make in the previous assignment, this assignment will ask you to download a few files from this directory onto your Ubuntu machine. Then, you are asked to create a node server and modify the included HTML files by way of answering some questions about Node.js and Express web framework. As always, come to our dicord channel to exhcnage ideas and troubleshoot. 
+Assuming you got access to a Linux Ubuntu OS machine that you were supposed to make in the previous assignment, this assignment will ask you to download a few files from this directory onto your Ubuntu machine. Then, you are asked to create a node server and modify the included HTML files by way of answering some questions about Node.js and Express web framework. As always, come to our discord channel to exhcnage ideas and troubleshoot. 
 
-**note** -- steps.12 and 13 are optional!
+> [!NOTE]
+>  steps.12 and 13 are optional
 
 
 ### Instructions
@@ -65,10 +66,11 @@ you can decide which one you prefer.
 
     Your answer must be on a seperate page in your PDF report. It can be a short paragraph of 2-3 sentences or more! It needs to be after the screenshot of step.10 and/or the optional step.13.
 
-    **That means your PDF report will be either two pages or three pages. Try using Google Docs to easily paste your screenshots and type in your paragraph. You can then easily convert the Google Doc into a PDF and submit it to Canvas.**
-    
+
+> [!IMPORTANT]
+> **That means your PDF report will be either two pages or three pages. Try using Google Docs to easily paste your screenshots and type in your paragraph. You can then easily convert the Google Doc into a PDF and submit it to Canvas.**
+
 _    Again, steps.12 and 13 are optional!
-_
     
 
 
