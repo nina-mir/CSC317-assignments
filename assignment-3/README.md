@@ -2,8 +2,8 @@
 
 ### The students are required to take two short courses offered by GitHub in this homework.
 
-1. Introduction to GitHub 
-2. Communicate using Markdown 
+1. [Introduction to GitHub](https://github.com/skills/introduction-to-github) 
+2. [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) 
 
 The instructions to finish these courses are clearly stated in each course's repo. 
 
