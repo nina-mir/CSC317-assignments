@@ -7,13 +7,21 @@
 
 The instructions to finish these courses are clearly stated in each course's repo. 
 
-#### Deliverables: A PDF report with two screenshorts
+#### Deliverables: A PDF report with two URLs
 
-> [!IMPORTANT]
-> Each screenshot needs to be on a single page. The total number of pages for this report is 2.
 
 **Make sure your report's first page has your NAME and STUDENT ID in the header.**
 
-After finishing each of the above two courses, you need to take a screenshot of the course repo that you forked earlier in each assignment. 
-Each screenshot needs to have your name as the contributor to that repo clearly visible. 
-Refere to the following screenshot for an example, please.
+After finishing each of the above two courses, you will end up with a repo that is similar to the image that follows. 
+After finishing these two courses, you will end up with **two repositories in your name on GitHub**.
+i need of you to put the URL of each repo as a **hyperlink** in a single line in a PDF report. 
+I need to be able to click on each link on your PDF and be directed to your repo's address. 
+
+Your report will include your name + ID number in the header. And, two single URL hyperlink addresses on a PDF report page. Submit that to Canvas.
+
+> [!WARNING]
+> If I cannot click on the URL link on your PDF report becuase you did not make it into a hyperlink, I will give you zero marks when I grade this assignment's report.
+
+
+
+<img width="50%" src="https://github.com/nina-mir/CSC317-assignments/blob/b505eb2bdfd9d734d6123ebd1ad4d56001c0c892/assignment-3/images/Screenshot%20from%202024-02-14%2023-21-02.png"></img>
