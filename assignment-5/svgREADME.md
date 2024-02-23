@@ -1,4 +1,4 @@
-![banner](./assignment-5/sample_banner.svg)
+![banner](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/sample_banner.svg)
 
 # An SVG drawing guide
 
