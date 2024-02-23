@@ -1,19 +1,4 @@
-<svg width="100%" height="100%">
-    <rect width="100%" height="100%" fill="red" />
-    <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
-    <circle cx="20%" cy="20%" r="50" fill="black" stroke="black" />
-    <polygon points="120,0 240,225 0,225" fill="#A1DD70" />
-    <text x="50" y="100" font-family="Verdana" font-size="55" fill="yellow" stroke="black" stroke-width="2">
-      Wilkommen!
-    </text>
-    <defs>
-        <radialGradient id="myGradient">
-        <stop offset="8%" stop-color="gold" />
-        <stop offset="95%" stop-color="blue" />
-        </radialGradient>
-    </defs>
-    <circle cx="50%" cy="50%" r="40" fill="url('#myGradient')" />
-</svg>
+![banner](./assignment-5/sample_banner.svg)
 
 # An SVG drawing guide
 
