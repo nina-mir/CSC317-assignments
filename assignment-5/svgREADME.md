@@ -31,6 +31,10 @@ For example in the following code snippet that is a greatly simplified version o
 ```
 ## 3. Animation 
 SVG animation can be achieved using the ```<animate>```, ```<animateMotion>``` and ```<animateTransform>``` elements. 
+The following image is achieved using ```<animateMotion>```. More info is on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion).
+You are encouraged to read MDN's explanation of the other two SVG elements on its [SVG Element Reference pages](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#a).
+
+<img src="https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/animation_example.svg" width="60%"></img>
 
 
 ## 4. Examples and Tutorials 
