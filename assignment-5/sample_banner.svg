@@ -6,7 +6,7 @@
     <rect x="25" y="50" width="20" height="20" transform="rotate(5)" />
     <polygon points="120,300 240,200 400,300" fill="#A1DD70" />
     <text x="50" y="100" font-family="Verdana" font-size="55" fill="yellow" stroke="black" stroke-width="1" transform="rotate(-5)">
-      Wilkommen!
+      Willkommen!
     </text>
     <g>
         <path 
