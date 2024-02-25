@@ -1,4 +1,5 @@
-## In this assignment, the focus is Git and GitHub's basic functions.
+# Assignment 3
+## In this assignment, the focus is on Git and GitHub's basic functions.
 
 ### The students are required to take two short courses offered by GitHub in this homework.
 
