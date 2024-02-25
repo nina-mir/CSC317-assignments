@@ -1,10 +1,11 @@
+# Assignment 2
 Assuming you got access to a Linux Ubuntu OS machine that you were supposed to make in the previous assignment, this assignment will ask you to download a few files from this directory onto your Ubuntu machine. Then, you are asked to create a node server and modify the included HTML files by way of answering some questions about Node.js and Express web framework. As always, come to our discord channel to exhcnage ideas and troubleshoot. 
 
 > [!NOTE]
->  steps.12 and 13 are optional
+>  Steps 12 and 13 are optional.
 
 
-### Instructions
+## Instructions
 1. download the files in this diretory to your machine
 2. create a directory on your home directory called _CSC-317_ using the appropriate Linux command (_mkdir directory-name_)
 3. chnage your working directory to the newly created directory in the previous step and make a directory called _assignment-2_  (what is change diectory command?)
@@ -68,9 +69,9 @@ you can decide which one you prefer.
 
 
 > [!IMPORTANT]
-> **That means your PDF report will be either two pages or three pages. Try using Google Docs to easily paste your screenshots and type in your paragraph. You can then easily convert the Google Doc into a PDF and submit it to Canvas.**
+> **Your PDF report will be either two pages or three pages. Try using Google Docs to easily paste your screenshots and type in your paragraph. You can then easily download the Google docx file as a PDF file to your computer and submit that PDF file to Canvas.**
 
-_    Again, steps.12 and 13 are optional!
+_Again, steps.12 and 13 are optional!_
     
 
 
