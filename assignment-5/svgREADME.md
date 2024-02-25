@@ -1,4 +1,6 @@
-<img src="https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/sample_banner.svg" width="60%"></img>
+<p align="center">
+    <img src="https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/sample_banner.svg" width="60%"></img>
+</p>
 
 # An SVG drawing guide
 
@@ -6,7 +8,7 @@
 Assignment-5 asks you to create banner image(s), animated graphics and any SVG-related graphics or art that you wish. You are asked to use SVG code inside the body tag of your ```HTML``` files or as an imported image file (```*.svg``` format). Using ```CSS``` or ```JavaScript``` is not allowed, since this is an ```HTML``` only assignment.
 
 > [!NOTE]
-> If your artwork crucially depends on using ```CSS/JS``` code, you are welcome to DM the instructor on **Discord** with a jsfiddle example of your artwork for your request to be considered.
+> If your artwork crucially depends on using ```CSS/JS``` code, please, DM the instructor on **Discord** with a jsfiddle example of your artwork for your request to be considered.
 
 ## 2. SVG basic shapes
 Rectangle, circle, ellipse, line, polyline,  polygon and path are the basic shapes of SVG. Each of these shapes has an element associated with it. These elements need to be inside a ```svg``` tag, as in each of these shapes would be a child of parent SVG element.
