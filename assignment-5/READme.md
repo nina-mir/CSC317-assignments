@@ -41,16 +41,19 @@ Required features:
 -  ```<nav class="menue"></nav>``` element following the banner image.
     -  This element contains an ```<ul></ul>``` element that contains list items that are each a hyperlink to the home page(```./index.html```), page two(```/views/two.html```) and page three(```views/three.html```) of your website. More info and examples can be found [here](https://developer.mozilla.org/en-US/play).
 -  ```<h1></h1>``` element containing the following text: `Assignment 5`. This element is right after the ```nav``` element.
--  ```<h2></h2>``` element containing the following text: `How to Apply CSS to HTML`. This element is placed right after the ```h1``` element. 
--  ```<p id="CSS"></p>``` element containing information on how to include an **external** CSS file in an ```html``` file with **an example**. This element follows the ```h2``` element above.
+-  ```<h2 class="css-question"></h2>``` element containing the following text: `How to Apply CSS to HTML`. This element is placed right after the ```h1``` element. 
+-  ```<p class="css-question"></p>``` element containing information on how to include an **external** CSS file in an ```html``` file with **an example**. This element follows the ```h2``` element above.
     -  Any _code_ used in your answer **must be** within a [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements. [This](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured) MDN article explains how to apply external CSS to ```html```.
-- ```<h2></h2>``` element containing the following text: `How to Use Javascript in a Webpage`. This element is placed right after the above ```<p></p>``` element.
-- ```<p></p>``` that follows the above ```h2``` element. This paragraph element contains the following information:
+- ```<h2 class="js-question"></h2>``` element containing the following text: `How to Use Javascript in a Webpage`. This element is placed right after the above ```<p></p>``` element.
+- ```<p class="js-question"></p>``` that follows the above ```h2``` element. This paragraph element contains the following information:
     - How to link to an **external** Javascript file with an example.
     - How to write Javascript code within an ```html``` file with an example.
     - As mentioned earlier, any _code_ used in your answers **must be** within a [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements. [This](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) MDN article explains how to import JS code into a webpage. 
 > [!NOTE]
 > You are not asked to use any software to create SVG artwork. However, you are allowed to do so.
 > For a list of tools to create SVG art, please click [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG)
-#### index.html
 
+### two.html
+Required features:
+-  A custom banner page at the top of the page with the same requirements specified for the banner image in the [previous secion](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/READme.md#indexhtml).
+ 
