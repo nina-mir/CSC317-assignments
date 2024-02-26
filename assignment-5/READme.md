@@ -1,6 +1,7 @@
 # Assignment 5
-Total marks: 60
+Total marks: 100
 Focus: Using HTML to create a website and deplying it to the internet using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+Grading: The absence of any required features will result in 10 marks deductions. For example, if the ```<nav></nav>``` element is missing on two of the three webpages, 20 marks will be deducted. If a part of a required feature is missing, partial marks will be deducted.
 ## Deliverables
 A PDF report submitted to Canvas.
 - The PDF file must include **student-name | SFSU-ID | Assignment 5 | your-GitHub-ID** in the header section.
@@ -89,7 +90,7 @@ Hint: You  will need ```<path></path>``` and ```<circle></circle>``` elements to
 - A custom banner page as explained in the previous secion.
 -   ```<nav></nav>``` element with the same specifications as in ```index.html```.
 - ```<h1></h1>``` element with the following text: `SVG Animation is easy!`
-- ```<img></img>```.element referencing to the SVG file of the animation that you have created:
+- ```<img></img>```.element referencing the SVG file of the animation that you have created:
     - The animation that you will create is of a small red circle traversing a perimeter of a square. More info can be found [here](./svgREADME.md)
     - The animation needs to be a seperate file named ```page-three.svg``` and located in the ```\resources\``` folder of your final repo.
     - The following is a reference graphic for this part of the assignment.
@@ -101,3 +102,23 @@ Hint: You  will need ```<path></path>``` and ```<circle></circle>``` elements to
 #### Optional feature:
 -  You are encouraged to include a personal SVG artwork after the required animation on this page.
 -  ***The top three SVG artwork, chosen by the instructor, will be featured on CSC317-04 main Canvas page for the entirety of March 2024.***
+### favicon.svg
+#### General Info
+Per [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Favicon):
+
+>   A favicon (favorite icon) is a tiny icon included along with a website, which is displayed in places like the browser's address bar, page tabs and bookmarks menu.
+>   It is a usually a high-contrast image. There are free tools to create a favicon.
+
+
+For a long time, SVG could not be used to create faicon since it was not supported by browsers. However, it is now widely supported by different browsers. You are asked to create a high-contrast favicon.svg file in this part of the assignment using your own drawings or any tool. 
+
+
+To include the favicon.svg in your website, you need to include the following in the <head></head> of each of your html files:
+
+```<link rel="icon" href="path-to-your-favicon.svg" type="image/svg+xml">```
+
+Don't forget to update the relative path to your favicon.svg in the above code snippet. 
+
+A few helpful resources on favicon: 
+-  [SVG, Favicons, and All the Fun Things We Can Do With Them](https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/)
+-  [Bilding an adaptive favicon](https://web.dev/articles/building/an-adaptive-favicon#:~:text=This%20means%20if%20an%20SVG,light%20and%20dark%20user%20preferences.)
