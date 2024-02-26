@@ -25,7 +25,7 @@ assignment-5-repo
 > If your submitted report and/or the structure of your GitHub repo for this assignment are not prepared accrding to the abovementioned instructions, the maximum grade for your submission will be 80%.
 ## Instructions
 ### index.html
-Required features: 
+#### Required features: 
 - A custom banner image created by you using basic SVG elements.
     - The banner width must be the full width of the screen.
     - The banner height has no restrictions.
@@ -37,7 +37,8 @@ Required features:
         - ```<path>```
   - You have two options to add your SVG drawings to your ```html``` files:
       -  using SVG code directly within ```<body></body>``` element.
-      -  using ```<img />``` element to reference a ```SVG``` image file located in the ```resources/``` folder
+      -  using ```<img />``` element to reference a ```SVG``` image file located in the ```resources/``` folder.
+      -  More info is found on [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web).
 -  ```<nav class="menue"></nav>``` element following the banner image.
     -  This element contains an ```<ul></ul>``` element that contains list items that are each a hyperlink to the home page(```./index.html```), page two(```/views/two.html```) and page three(```views/three.html```) of your website. More info and examples can be found [here](https://developer.mozilla.org/en-US/play).
 -  ```<h1></h1>``` element containing the following text: `Assignment 5`. This element is right after the ```nav``` element.
@@ -48,12 +49,48 @@ Required features:
 - ```<p class="js-question"></p>``` that follows the above ```h2``` element. This paragraph element contains the following information:
     - How to link to an **external** Javascript file with an example.
     - How to write Javascript code within an ```html``` file with an example.
-    - As mentioned earlier, any _code_ used in your answers **must be** within a [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements. [This](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) MDN article explains how to import JS code into a webpage. 
+    - As mentioned earlier, any _code_ used in your answers **must be** within a [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements.
+    - [This](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) MDN article explains how to import JS code into a webpage. 
 > [!NOTE]
 > You are not asked to use any software to create SVG artwork. However, you are allowed to do so.
 > For a list of tools to create SVG art, please click [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG)
 
 ### two.html
-Required features:
+#### General Info
+On this page, you are asked to create a table using HTML ```<table></table>``` element. The content of this table is your top three coding resources that you have found very useful in your computer science journey. These resources can be of any media: social media channels, books, blogs, websites, Discord channels, etc.
+
+You may find this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) very useful for this pat of the assignment.
+
+If you happen to have no favorite coding resourse, find some for this assignment, please.😺
+
+#### Required features:
 -  A custom banner page at the top of the page with the same requirements specified for the banner image in the [previous secion](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/READme.md#indexhtml).
- 
+    -  You are allowed to use the same banner page that yu created for ```index.html``` webpage.
+    -  Also, you are allowed to create another custom banner page, if you want to create more art!
+    -  Please, keep in mind that **it is required that all banner images be of the same width and height on all pages of this website**.
+-   ```<nav></nav>``` element with the same specifications as in ```index.html```.
+-  ```<h1></h1>``` element with the following text: `Favorite Coding Resources`.
+-   ```<table></table>``` element with at least 4 rows and 2 columns and a [```<caption></caption>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption). The first row is the heading of this table. Hint: you need to use [```<thead></thead>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) element to create a table heading row.
+-    For this basic HTML table, you are required to use ```<table></table>```, ```<caption></caption>```, ```<tbody></tbody>```,```<tr></tr>```, ```<td></td>``` elements.
+
+For reference, the following is an example of a table with three rows. You need to create a table with four rows. 
+|  Coding Resource | Link |
+| --- | --- |
+| Mozilla Developer Network | https://developer.mozilla.org/en-US/docs/Web |
+| DigitalOcean Tutorials | https://www.digitalocean.com/community/tutorials 
+
+### three.html
+#### General Info
+On this page, you are required to create an SVG animation using ```<animateMotion></animateMotion>``` in connection to a ```<path></path>``` and ```<circle></circle>```.
+#### Required features:
+- A custom banner page as explained in the previous secion.
+- ```<h1></h1>``` element with the following text: `SVG Animation is easy!`
+- ```<img></img>```.element referencing to the SVG file of the animation that you have created:
+    - The animation that you will create is of a small red circle traversing a perimeter of a square. More info can be found [here](assignment-5/svgREADME.md)
+    - The animation needs to be a seperate file named ```page-three.svg``` and located in the ```\resources\``` folder of your final repo.
+    - The following is a reference graphic for this part of the assignment.
+
+<p align="left">  
+  <img src="https://github.com/nina-mir/CSC317-assignments/blob/35bc85209121f16a9ccd41e9aa5d0b5be774a2a5/assignment-5/svgAnimationCSC317_HW_5.gif" width="25%"></img>
+</p>
+
