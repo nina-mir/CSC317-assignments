@@ -86,7 +86,7 @@ On this page, you are required to create an SVG animation using ```<animateMotio
 - A custom banner page as explained in the previous secion.
 - ```<h1></h1>``` element with the following text: `SVG Animation is easy!`
 - ```<img></img>```.element referencing to the SVG file of the animation that you have created:
-    - The animation that you will create is of a small red circle traversing a perimeter of a square. More info can be found [here](assignment-5/svgREADME.md)
+    - The animation that you will create is of a small red circle traversing a perimeter of a square. More info can be found [here](./svgREADME.md)
     - The animation needs to be a seperate file named ```page-three.svg``` and located in the ```\resources\``` folder of your final repo.
     - The following is a reference graphic for this part of the assignment.
 
