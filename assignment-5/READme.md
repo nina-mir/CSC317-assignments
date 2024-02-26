@@ -1,6 +1,8 @@
 # Assignment 5
 Total marks: 100
 Focus: Using HTML to create a website and deplying it to the internet using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+
 Grading: The absence of any required features will result in 10 marks deductions. For example, if the ```<nav></nav>``` element is missing on two of the three webpages, 20 marks will be deducted. If a part of a required feature is missing, partial marks will be deducted.
 ## Deliverables
 A PDF report submitted to Canvas.
