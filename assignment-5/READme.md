@@ -38,7 +38,7 @@ assignment-5-repo
       -  using ```<img />``` element to reference a ```SVG``` image file located in the ```resources/``` folder.
       -  More info is found on [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web).
 -  ```<nav class="menue"></nav>``` element following the banner image.
-    -  This element contains an ```<ul></ul>``` element that contains list items that are each a hyperlink to the home page(```./index.html```), page two(```/views/two.html```) and page three(```views/three.html```) of your website. More info and examples can be found [here](https://developer.mozilla.org/en-US/play).
+    -  This element contains an ```<ul></ul>``` element that contains list items that are each a hyperlink to the home page(```./index.html```), page two(```./views/two.html```) and page three(```./views/three.html```) of your website. More info and examples can be found [here](https://developer.mozilla.org/en-US/play).
 -  ```<h1></h1>``` element containing the following text: `Assignment 5`. This element is right after the ```nav``` element.
 -  ```<h2 class="css-question"></h2>``` element containing the following text: `How to Apply CSS to HTML`. This element is placed right after the ```h1``` element. 
 -  ```<p class="css-question"></p>``` element containing information on how to include an **external** CSS file in an ```html``` file with **an example**. This element follows the ```h2``` element above.
