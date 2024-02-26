@@ -7,9 +7,7 @@ A PDF report submitted to Canvas.
 - The body of your PDF report must contain a hyperlink to the GitHub repo.
 - The body of your PDF report must contain the URL to your deployed website.
 ## Your Repo Structure
-It is vital for your repo to have the following file structure. 
-- The repo must include all the files that your website needs.  
-
+It is required for your repo to have the following file structure. 
 ```graphql
 assignment-5-repo 
   ├─ index.html - # Entry point for your website must be named index.html
