@@ -81,9 +81,13 @@ For reference, the following is an example of a table with three rows. You need 
 
 ### three.html
 #### General Info
-On this page, you are required to create an SVG animation using ```<animateMotion></animateMotion>``` in connection to a ```<path></path>``` and ```<circle></circle>```.
+On this page, you are required to create an SVG animation using ```<animateMotion></animateMotion>```. 
+
+
+Hint: You  will need ```<path></path>``` and ```<circle></circle>``` elements too. You are encouraged to view the code of a [sample SVG animation file in this directory](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/animation_example.svg).
 #### Required features:
 - A custom banner page as explained in the previous secion.
+-   ```<nav></nav>``` element with the same specifications as in ```index.html```.
 - ```<h1></h1>``` element with the following text: `SVG Animation is easy!`
 - ```<img></img>```.element referencing to the SVG file of the animation that you have created:
     - The animation that you will create is of a small red circle traversing a perimeter of a square. More info can be found [here](./svgREADME.md)
@@ -94,3 +98,6 @@ On this page, you are required to create an SVG animation using ```<animateMotio
   <img src="https://github.com/nina-mir/CSC317-assignments/blob/35bc85209121f16a9ccd41e9aa5d0b5be774a2a5/assignment-5/svgAnimationCSC317_HW_5.gif" width="25%"></img>
 </p>
 
+#### Optional feature:
+-  You are encouraged to include a personal SVG artwork after the required animation on this page.
+-  ***The top three SVG artwork, chosen by the instructor, will be featured on CSC317-04 main Canvas page for the entirety of March 2024.***
