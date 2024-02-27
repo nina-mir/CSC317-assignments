@@ -32,7 +32,7 @@ It is vital that you verify that these requirements are met for a successful dep
 #### Required features: 
 1. A custom banner image created by you using basic SVG elements.
 
-    Please refer to [this](assignment-5/svgREADME.md) document for a complete list of resources to help you with the SVG part of this assignment. 
+    Please refer to [this](svgREADME.md) document for a complete list of resources to help you with the SVG part of this assignment. 
     - The banner width must be the full width of the screen.
     - The banner height is at 300px.
     - The banner image must at the top of the page.
