@@ -5,13 +5,13 @@
 ### A short explanation from [IBM](https://www.ibm.com/topics/virtualization):
 #### What is virtualization?
 
-Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
-
-Virtualization uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer—processors, memory, storage and more—to be divided into multiple virtual computers, commonly called virtual machines (VMs). Each VM runs its own operating system (OS) and behaves like an independent computer, even though it is running on just a portion of the actual underlying computer hardware.
-
-It follows that virtualization enables more efficient utilization of physical computer hardware and allows a greater return on an organization’s hardware investment.
-
-Today, virtualization is a standard practice in enterprise IT architecture. It is also the technology that drives cloud computing economics. Virtualization enables cloud providers to serve users with their existing physical computer hardware; it enables cloud users to purchase only the computing resources they need when they need it, and to scale those resources cost-effectively as their workloads grow.
+>  Virtualization is a process that allows for more efficient utilization of physical computer hardware and is the foundation of cloud computing.
+> 
+> Virtualization uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer—processors, memory, storage and more—to be divided into multiple virtual computers, commonly called virtual machines (VMs). Each VM runs its own operating system (OS) and behaves like an independent computer, even though it is running on just a portion of the actual underlying computer hardware.
+> 
+> It follows that virtualization enables more efficient utilization of physical computer hardware and allows a greater return on an organization’s hardware investment.
+> 
+> Today, virtualization is a standard practice in enterprise IT architecture. It is also the technology that drives cloud computing economics. Virtualization enables cloud providers to serve users with their existing physical computer hardware; it enables cloud users to purchase only the computing resources they need when they need it, and to scale those resources cost-effectively as their workloads grow.
 ***
 > [!TIP]
 > IBM publishes some amazing [tutorials](https://developer.ibm.com/?dwcontenttype[0]=Tutorials) on various subjects. Check it out, if you get a chance!
@@ -100,7 +100,8 @@ _text _ -- https://jun1okamura.medium.com/install-ubuntu-on-mac-m1-powered-by-ut
 
 _video/text_ -- https://techyrick.com/installing-ubuntu-on-utm-apple-m1-m2/
 
-### Note: If you cannot install Ubuntu OS on your computer you can always checkout a Windows laptop from the library and follows the instructions for Intel chips above. 
+>[!NOTE]
+>If you cannot install Ubuntu OS on your computer, you should consider checking out a Windows laptop from the library and follow the instructions for Intel chips above. 
 
 
 
