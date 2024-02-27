@@ -1,5 +1,5 @@
 # Assignment 2
-Assuming you got access to a Linux Ubuntu OS machine that you were supposed to make in the previous assignment, this assignment will ask you to download a few files from this directory onto your Ubuntu machine. Then, you are asked to create a node server and modify the included HTML files by way of answering some questions about Node.js and Express web framework. As always, come to our discord channel to exhcnage ideas and troubleshoot. 
+Assuming you got access to a Linux Ubuntu OS machine that you were supposed to make in the previous assignment, this assignment asks you to download a few files from this directory onto your Ubuntu machine. Then, you are asked to create a node server and modify the included HTML files by way of answering some questions about Node.js and Express web framework. As always, come to our discord channel to exhcnage ideas and troubleshoot. 
 
 > [!NOTE]
 >  Steps 12 and 13 are optional.
