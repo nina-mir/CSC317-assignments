@@ -66,7 +66,7 @@ It is vital that you verify that these requirements are met for a successful dep
 #### General Info
 On this page, you are asked to create a table using HTML ```<table></table>``` element. The content of this table is your top three coding resources that you have found very useful in your computer science journey. These resources can be of any media: social media channels, books, blogs, websites, Discord channels, etc.
 
-You may find this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) very useful for this pat of the assignment.
+You may find this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) very useful for this part of the assignment.
 
 If you happen to have no favorite coding resource, find some for this assignment, please.
 
