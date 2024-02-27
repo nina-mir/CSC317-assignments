@@ -1,5 +1,5 @@
 # <code style="color:red"> Welcome to CSC 317-04 assignment repository!</code>
-Please navigate to each directory in the repo to access each assignment's text and related files
+Please navigate to each directory in the repo to access each assignment's text and related files.
 > [!NOTE]
 > For any questions, please, 📧 the course instructor ➡️ **nina @ sfsu.edu**.
 > To seek help with any technical issues, the best place is the course discord's channel found on Canvas. 
