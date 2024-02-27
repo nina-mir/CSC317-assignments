@@ -50,11 +50,11 @@ It is vital that you verify that these requirements are met for a successful dep
 3.  ```<h1></h1>``` element containing the following text: `Assignment 5`. This element is right after the ```nav``` element.
 4.  ```<h2 class="css-question"></h2>``` element containing the following text: `How to Apply CSS to HTML`. This element is placed right after the ```h1``` element. 
 5.  ```<p class="css-question"></p>``` element containing information on how to include an **external** CSS file in an ```html``` file with **an example**. This element follows the ```h2``` element above.
-    -  Any _code_ used in your answer **must be** within a [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements. [This](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured) MDN article explains how to apply external CSS to ```html```.
-6. ```<h2 class="js-question"></h2>``` element containing the following text: `How to Use Javascript in a Webpage`. This element is placed right after the above ```<p></p>``` element.
+    -  Any _code_ used in your answer is **required** to be enclosed within [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements. [This](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured) MDN article explains how to apply external CSS to ```html```.
+6. ```<h2 class="js-question"></h2>``` element containing the following text: `How to Use JavaScript in a Webpage`. This element is placed right after the above ```<p></p>``` element.
 7. ```<p class="js-question"></p>``` that follows the above ```h2``` element. This paragraph element contains the following information:
-    - How to link to an **external** Javascript file with an example.
-    - How to write Javascript code within an ```html``` file with an example.
+    - How to link to an **external** JavaScript file with an example.
+    - How to write JavaScript code within an ```html``` file with an example.
     - As mentioned earlier, any _code_ used in your answers **must be** within a [```<code></code>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) or [```<pre></pre>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) elements.
     - [This](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) MDN article explains how to import JS code into a webpage. 
 > [!NOTE]
@@ -67,7 +67,7 @@ On this page, you are asked to create a table using HTML ```<table></table>``` e
 
 You may find this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) very useful for this pat of the assignment.
 
-If you happen to have no favorite coding resourse, find some for this assignment, please.😺
+If you happen to have no favorite coding resource, find some for this assignment, please.
 
 #### Required features:
 1.  A custom banner page at the top of the page with the same requirements specified for the banner image in the [previous secion](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/READme.md#indexhtml).
@@ -76,7 +76,7 @@ If you happen to have no favorite coding resourse, find some for this assignment
     -  Please, keep in mind that **it is required that all banner images be of the same width and height on all pages of this website**.
 2.   ```<nav></nav>``` element with the same specifications as in ```index.html```.
 3.  ```<h1></h1>``` element with the following text: `Favorite Coding Resources`.
-4.   ```<table></table>``` element with 4️⃣ rows and 2️⃣ columns and a [```<caption></caption>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption). The first row is the heading of this table. Hint: you need to use [```<thead></thead>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) element to create a table heading row.
+4.   ```<table></table>``` element with four rows and two columns and a [```<caption></caption>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption). The first row is the heading of this table. Hint: you need to use [```<thead></thead>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) element to create a table heading row.
 5.    For this basic HTML table, you are required to use ```<table></table>```, ```<caption></caption>```, ```<tbody></tbody>```,```<tr></tr>```, ```<td></td>``` elements.
 
 For reference, the following is an example of a table with three rows. You need to create a table with four rows! 
@@ -128,7 +128,7 @@ A few helpful resources on favicon:
 -  [SVG, Favicons, and All the Fun Things We Can Do With Them](https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/)
 -  [Bilding an adaptive favicon](https://web.dev/articles/building/an-adaptive-favicon#:~:text=This%20means%20if%20an%20SVG,light%20and%20dark%20user%20preferences.)
 
-### Deployment 🚀
+### Deployment
 
 I did a demo during Feb.22 session on how to deploy a repo of a static website on GitHub to the internet using GitHub Pages. 
 
@@ -150,6 +150,6 @@ For example:
 4. Connect the local project directory to a remote repo on GitHub.com. This process is explained in detail in Feb.15.slides.pdf on Canvas.
 5. After successfully setting up your remote repo, it is now time to get to code the required features of each page of this website.
 6. You should first do all that is not SVG related. The reason I suggest that is because the SVG parts may take more time to finish.
-7. Anything that is not SVG related is much easier to finish. For example, adding a heading(```<h1></h1>```) or a paragraph (```<p></p>```) element to a webpage can be done in less than a 1 minute! 😺
+7. Anything that is not SVG related is much easier to finish. For example, adding a heading(```<h1></h1>```) or a paragraph (```<p></p>```) element to a webpage can be done in less than a 1 minute!
 8. Finally, make a habit of commiting your progress with meaningful messages (```git commit -m "concise-message"```) and pushing it to your repo as often as you make progress with this assignment.
-9. Ask your questions in the discord channel for this assignment with clear explanations and any relevant code or error message. Questions that lack clarity or supporting code are not fun to answer for anyone! **Good luck!**   
+9. Ask your questions in the discord channel for this assignment with clear explanations and any relevant code or error message. Questions that lack clarity or supporting code are not fun to answer for anyone! **Happy Coding!**   
