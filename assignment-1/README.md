@@ -1,6 +1,6 @@
 # Assignment 1
 ### A guide to create a virtual machine running Linux Ubuntu OS on your computer
-*The information in this guide is based on the work/materials by Robert Bierman and Andrew Scott of SF State CS Dept re: CSC 317 course. (Additional information is included from other online sources.)*
+*Some of the information in this guide is based on the work/materials by Robert Bierman and Andrew Scott of SF State CS Dept re: CSC 317 course. (Additional information is included from other online sources.)*
 ***
 ### A short explanation from [IBM](https://www.ibm.com/topics/virtualization):
 #### What is virtualization?
@@ -22,7 +22,7 @@ This guid has two different sections. You should read the section that matches y
 
 ### <a id="first">Intel 64bit</a>
 
-**Step. 1** download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the following link. Refer to the image below from the same link for more info.
+**Step. 1** Download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the following link. Refer to the image below from the same link for more info.
 
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 
@@ -82,17 +82,15 @@ Now explore Ubuntu OS and figure things out!
 
 Folks with an ARM cpu architecture cannot use VirtualBox to install Ubuntu OS. You have other options. 
 
-**Option. 1** -- **buy Parallels**. It is about $50 for students. https://www.parallels.com/products/desktop/buy/?full
+**Option. 1**: **buy Parallels**. It is about $50 for [students](https://www.parallels.com/products/desktop/buy/?full). 
 
-Watch the following video on YouTube on how to **install Ubuntu** on your Macbook. The video assumed you have already installed Parallels. 
+Watch this video on [YouTube](https://youtu.be/EiO_CHfSn2s?si=_XTa1OQzeMoMnmLv) on how to **install Ubuntu** on your Macbook. The video assumed you have already installed Parallels. 
 
-link: https://youtu.be/EiO_CHfSn2s?si=_XTa1OQzeMoMnmLv
+**Option. 2**: Use a free open-source application like UTM. You can download it for free or buy it from the Apple store for $10.
 
-**Option. 2** -- use a free open-source application like UTM. You can download it for free or buy it from the Apple store for $10.
+Follow this [link](https://mac.getutm.app/) to download it.
 
-Follow this link to download it: https://mac.getutm.app/
-
-Installation guide: https://docs.getutm.app/guides/ubuntu/
+UTM's Installation guide can be found [here](https://docs.getutm.app/guides/ubuntu/).
 
 **Other sources that could help**
 
