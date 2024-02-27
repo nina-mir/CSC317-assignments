@@ -11,36 +11,38 @@ Assuming you got access to a Linux Ubuntu OS machine that you were supposed to m
 3. Change your working directory to the newly created directory in the previous step and make a directory called _assignment-2_  (What is change diectory command in Linux?)
 4. Move or copy the downloaded files in step.1 to asignment-2 directory using appropriate Linux command (Hint: _cp source target_)
 
-For reference -- your _assignment-2_ directory should include the four files in the following tree structure:
-     <img src="https://github.com/nina-mir/CSC317-assignments/blob/3531c552f276d66aa88291ac2bf03fb4f125d548/assignment-2/images/assignment-2-tree.png" width="500px">
+### For reference
+Your _assignment-2_ directory should include the four files in the following tree structure:
+
+<img src="https://github.com/nina-mir/CSC317-assignments/blob/3531c552f276d66aa88291ac2bf03fb4f125d548/assignment-2/images/assignment-2-tree.png" width="500px">
 
 
 5. Change your working directory to assignment-2 directory
-6. If you have VScode, run:
+6. If you have VS Code, run:
      ```
        $ code .
      ````
-     to open the content of CSC-317 inside VScode
+     to open the content of CSC-317 inside VS Code
    
-   **note:** if you prefer other editors, feel free to use whatever you like. But, this write-up as in the rest of this course assumes you are using VScode.
+   **note:** if you prefer other editors, feel free to use whatever you like. But, this write-up as in the rest of this course assumes you are using VS Code.
 7. Make sure you have node.js installed by running the following on your terminal commandline
    ```
    $ node -v
    ```
-   A version of 18+ is recommended for your nodde.js. If nothing shows up, you need to install node.
-
-   source: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
-8. Run node to serve the HTML files:
+   A version of 18 or higher is recommended for your nodde.js. If nothing shows up, you need to install node.
+   A Node installation guide is provided [here](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04).
+   
+9. Run node to serve the HTML files:
    ```
    $ node server_node_only.js
    ```
-you should see the following on your terminal: 
+     You should see the following on your terminal: 
 
 <img src="https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-2/images/node-run.png" width="500px">
 
-9. Open your browser and navigate to ``` http://localhost:3000/ ```
-in this step, you will be answering the question on this page by modifying the index.html file that is already accessible on your VScode.
-Navigate to VScode and remove the ___ placeholder character and write your own answers.
+9. Open your browser and navigate to ``` http://localhost:3000/ ```.
+In this step, you will be answering the question on this page by modifying the index.html file that is already accessible on your VS Code.
+Navigate to VS Code and remove the ___ placeholder character and type in your answers.
 
      At any time during this prcess, you can go to your browser tab and refresh the page to see you answers reflected on the browser.
 Note: It's recommended to install Google Chrome on your Ubuntu OS. Check this [resource](https://itsfoss.com/install-chrome-ubuntu/)
@@ -58,10 +60,10 @@ Note: It's recommended to install Google Chrome on your Ubuntu OS. Check this [r
 20. In short, you should either use ``` $ npm install express
 ``` or ``` $ npm install express --no-save ```
 You can decide which one you prefer after doing an online search 😉.
-21. After successfully installing express, run the command in **step.16** again
+21. After successfully installing express, run the command in **step.16** again. If it is successful, move on to **Step.22** below.
 22. Navigate to your localhost adress in your browser
 23. You should see your answers from earlier on the browser.
-24. Go to VScode and compare the two JS files with each other. They both do the same job. Now, answer this following question:
+24. Go to VS Code and compare the two JS files with each other. They both do the same job. Now, answer this following question:
 
     Which one would you prefer as a web developer and why? 
 
