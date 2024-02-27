@@ -139,10 +139,10 @@ A detailed guide with graphics can be found on [GitHub Docs](https://docs.github
 
 ### Some Tips about this Assignment
 
-You are welcome to go about doing this assignment in whatever way you'd like to do. Here are some general tips on how to go about doing this assignment that you may find helpful:
+You are welcome to go about doing this assignment in whichever way you'd like to. But, here are some general tips:
 
 - As in any multi-part project, break the project into the most essential parts and start with them.
-- After setting up the skeleton of the project, start working on required detailes for each page.
+- After setting up the skeleton of the project (aka scaffolding), start working on the required detailes for each page.
 
   
 For example: 
