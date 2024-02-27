@@ -34,13 +34,12 @@ It is vital that you verify that these requirements are met for a successful dep
 
     Please refer to [this](assignment-5/svgREADME.md) document for a complete list of resources to help you with the SVG part of this assignment. 
     - The banner width must be the full width of the screen.
-    - The banner height has no restrictions.
+    - The banner height is at 300px.
     - The banner image must at the top of the page.
     - The banner image must, at least, include one of each of the following elements:
         - ```<circle>```
         - ```<rect>```
         - ```<polygone>```
-        - ```<path>```
 > [!IMPORTANT]
 > You have two options to add your SVG drawings to your ```html``` files:
 > 1.  using SVG code directly within ```<body></body>``` element.
@@ -73,7 +72,7 @@ If you happen to have no favorite coding resource, find some for this assignment
 
 #### Required features:
 1.  A custom banner page at the top of the page with the same requirements specified for the banner image in the [previous secion](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/READme.md#indexhtml).
-    -  You are allowed to use the same banner page that yu created for ```index.html``` webpage.
+    -  You are allowed to use the same banner page that you created for ```index.html``` webpage.
     -  Also, you are allowed to create another custom banner page, if you want to create more art!
     -  Please, keep in mind that **it is required that all banner images be of the same width and height on all pages of this website**.
 2.   ```<nav></nav>``` element with the same specifications as in ```index.html```.
@@ -91,13 +90,15 @@ For reference, the following is an example of a table with three rows. You need 
 #### General Info
 On this page, you are required to create an SVG animation using ```<animateMotion></animateMotion>```. 
 
+This SVG animation needs to be a seperate file named ```page-three.svg```.
+
 
 Hint: You  will need ```<path></path>``` and ```<circle></circle>``` elements too. You are encouraged to view the code of a [sample SVG animation file in this directory](https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/animation_example.svg).
 #### Required features:
 1. A custom banner page as explained in the previous secion.
 2.   ```<nav></nav>``` element with the same specifications as in ```index.html```.
 3. ```<h1></h1>``` element with the following text: `SVG Animation is easy!`
-4. ```<img></img>```.element referencing the SVG file of the animation that you have created:
+4. ```<img></img>```element referencing the SVG file of the animation that you have created:
     - The animation that you will create is of a small red circle traversing a perimeter of a square. More info can be found [here](./svgREADME.md)
     - The animation needs to be a seperate file named ```page-three.svg``` and located in the ```\resources\``` folder of your final repo.
     - The following is a reference graphic for this part of the assignment.
@@ -107,7 +108,7 @@ Hint: You  will need ```<path></path>``` and ```<circle></circle>``` elements to
 </p>
 
 #### Optional feature:
--  You are encouraged to include a personal SVG artwork after the required animation on this page.
+-  You are encouraged to include a personal SVG artwork after the required animation on this page. 
 -  ***The top three SVG artwork, chosen by the instructor, will be featured on CSC317-04 main Canvas page for the entirety of March 2024.***
 ### favicon.svg
 #### General Info
