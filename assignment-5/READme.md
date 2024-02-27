@@ -26,6 +26,9 @@ assignment-5-repo
 ### index.html
 #### General Info
 
+This files is the entry point to your website. To use GitHub Pages, this file needs to exist at the root of your repo. If it is not present, GitHub Pages will not deploy your website.
+It is vital that you verify that these requirements are met for a successful deployment.  
+
 #### Required features: 
 1. A custom banner image created by you using basic SVG elements.
     - The banner width must be the full width of the screen.
