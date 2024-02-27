@@ -79,7 +79,7 @@ If you happen to have no favorite coding resource, find some for this assignment
 2.   ```<nav></nav>``` element with the same specifications as in ```index.html```.
 3.  ```<h1></h1>``` element with the following text: `Favorite Coding Resources`.
 4.   ```<table></table>``` element with four rows and two columns and a [```<caption></caption>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption). The first row is the heading of this table. Hint: you need to use [```<thead></thead>```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) element to create a table heading row.
-5.    For this basic HTML table, you are required to use ```<table></table>```, ```<caption></caption>```, ```<tbody></tbody>```,```<tr></tr>```, ```<td></td>``` elements.
+5.    In short, for this basic HTML table, you are required to use ```<table></table>```, ```<caption></caption>```,```<thead></thead>```, ```<th></th>``` ```<tbody></tbody>```,```<tr></tr>```, ```<td></td>``` elements.
 
 For reference, the following is an example of a table with three rows. You need to create a table with four rows! 
 |  Coding Resource | Link |
