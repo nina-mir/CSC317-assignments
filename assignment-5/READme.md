@@ -132,7 +132,7 @@ A few helpful resources on favicon:
 
 I did a demo during Feb.22 session on how to deploy a repo of a static website on GitHub to the internet using GitHub Pages. 
 
-A detailed guide with visualis can be found on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+A detailed guide with graphics can be found on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 ### Some Tips about this Assignment
 
