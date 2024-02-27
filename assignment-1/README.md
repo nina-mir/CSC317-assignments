@@ -71,15 +71,14 @@ If all the previous steps are successfully completed, you should see a WebDec202
 
 <img src="images-setup/press_on_new_machine.png" width="500">
 
-After selecting you new _machine_, you should see a similar menue. Click on **_Start_** button to boot your Ubuntu machine.
-After Ubuntu is booted, enter the password provided above: student. 
-Now look around Ubuntu and figure things out! 
+After selecting your new _machine_, you should see a similar menue. Click on **_Start_** button to boot your Ubuntu machine.
+After Ubuntu is booted, enter the password provided here ▶️ student. 
+Now explore Ubuntu OS and figure things out! 
 
 <img src="images-setup/run_the_VM.png" width="500">
 
 ### <a id="second">MacBook M1, M2 chipset</a>
-
-  
+ 
 
 Folks with an ARM cpu architecture cannot use VirtualBox to install Ubuntu OS. You have other options. 
 
@@ -95,10 +94,11 @@ Follow this link to download it: https://mac.getutm.app/
 
 Installation guide: https://docs.getutm.app/guides/ubuntu/
 
-**Other sources that could help**: 
-_text _ -- https://jun1okamura.medium.com/install-ubuntu-on-mac-m1-powered-by-utm-499aba3ba7e9
+**Other sources that could help**
 
-_video/text_ -- https://techyrick.com/installing-ubuntu-on-utm-apple-m1-m2/
++ [_text_]  https://jun1okamura.medium.com/install-ubuntu-on-mac-m1-powered-by-utm-499aba3ba7e9
+
++ [_video/text_]  https://techyrick.com/installing-ubuntu-on-utm-apple-m1-m2/
 
 >[!NOTE]
 >If you cannot install Ubuntu OS on your computer, you should consider checking out a Windows laptop from the library and follow the instructions for Intel chips above. 
