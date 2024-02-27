@@ -1,5 +1,5 @@
 # Assignment-1
-### A guide to install Ubuntu OS in VirtualBox
+### A guide to create a virtual machine running Linux Ubuntu OS on your computer
 *The information in this guide is based on the work/materials by Robert Bierman and Andrew Scott of SF State CS Dept re: CSC 317 course. (Additional information is included from other online sources.)*
 ***
 ### A short explanation from [IBM](https://www.ibm.com/topics/virtualization):
