@@ -16,13 +16,13 @@
 > [!TIP]
 > IBM publishes some amazing [tutorials](https://developer.ibm.com/?dwcontenttype[0]=Tutorials) on various subjects. Check it out, if you get a chance!
 
-This guid has two different sections. You should read the section that matches your CPU architecture. 
+This guide has two different sections. You should read the section that matches your CPU architecture. 
 + [intel](#first)
-+ [Siliocon Chips by Apple (M1/M2)](#second).  
++ [Silicon Chips by Apple (M1/M2)](#second).  
 
 ### <a id="first">Intel 64bit</a>
 
-**Step. 1** Download and install VirtualBox version VirtualBox 6.1.20 (released April 20 2021) + Package Extension file from the following link. Refer to the image below from the same link for more info.
+**Step. 1** Download and install the latest VirtualBox software for your OS build. The following image is for version VirtualBox 6.1.20 (released April 20 2021). The Package Extension file needs to be downloaded as well! [2 files needed to be downloaded in total] Refer to the image below from the same link for more info.
 
 Link: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 
