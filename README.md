@@ -11,4 +11,4 @@ Please navigate to each directory in the repo to access each assignment's text a
 | [Assignment 2](assignment-2/README.md)| Node/Express Hello world!|   TBA|
 | [Assignment 3](assignment-3/README.md)| Two mini-courses on GitHub.com :octocat: | 10 marks|
 | Assignment 4| Two mini-courses on GitHub.com (More info on Canvas) :octocat: | 10 marks|
-| [Assignment 5](assignment-5/README.md)| HTML website + SVG art+ GitHub Pages deployment | 100 marks|
+| [Assignment 5](assignment-5/READme.md)| HTML website + SVG art+ GitHub Pages deployment | 100 marks|
