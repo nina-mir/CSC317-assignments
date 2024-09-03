@@ -1,8 +1,8 @@
-# Assignment 5
+# Assignment 2
 Total marks: 100 
 ## Deliverables
 A PDF report submitted to Canvas.
-- The PDF file must include **student-name | SFSU-ID | Assignment 5 | your-GitHub-ID** in the header section.
+- The PDF file must include **student-name | SFSU-ID | Assignment 2 | your-GitHub-ID** in the header section.
 - The body of your PDF report must contain a hyperlink to the GitHub repo of your answers to this assignment.
 - The body of your PDF report must contain the URL to your [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 deployed website.
