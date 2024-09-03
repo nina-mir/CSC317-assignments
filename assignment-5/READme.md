@@ -9,7 +9,7 @@ deployed website.
 ## Your Repo Structure
 It is required for your repo to have the following file structure. 
 ```graphql
-assignment-5-repo 
+assignment-2-repo 
   ├─ index.html - # Entry point for your website must be named index.html
   ├─ views/  
   │  ├─ two.html 
