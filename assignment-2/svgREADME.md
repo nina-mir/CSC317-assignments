@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-5/sample_banner.svg" width="100%"></img>
+    <img src="https://github.com/nina-mir/CSC317-assignments/blob/main/assignment-2/sample_banner.svg" width="100%"></img>
 </p>
 
 # An SVG drawing guide
