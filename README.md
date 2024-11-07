@@ -11,5 +11,5 @@ Please navigate to each directory in the repo to access each assignment's text a
 | [Assignment 2](assignment-2/README.md)| HTML website + SVG art+ GitHub Pages deployment | 100 marks|
 | [Assignment 3](assignment-3/README.md)| Two mini-courses on GitHub.com :octocat: | 20 marks|
 | [Assignment 4](typesetting/readme.md)| Typesetting a local college website (MDN) | 200 marks|
-| [Assignment 4](todos-API/readme.md)| extend the todos API | 120 marks|
+| [Assignment 5](todos-API/readme.md)| extend the todos API | 120 marks|
 <!-- | [Assignment 5](assignment-5/READme.md)| HTML website + SVG art+ GitHub Pages deployment | 100 marks| -->

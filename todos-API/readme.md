@@ -4,7 +4,7 @@ deliverables to Canvas: A PDF file that has a link to a github repo of yours
 >your github repo needs to have a file called index.js with all your answers.
 
 ### in this assignment, you will be extending the todos API that we worked on Nov.5
-### more info about that is available in [this PDF file](todos-API\guide-NODE-API-todos.pdf)
+### more info about that is available in [this PDF file](https://github.com/nina-mir/CSC317-assignments/blob/d02604a7402289e8055059fe0a93c16a45450b8c/todos-API/guide-NODE-API-todos.pdf)
 
 
 ## Question 1: Add a "Priority" Field to the To-Do API
