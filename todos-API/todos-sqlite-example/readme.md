@@ -11,6 +11,7 @@
 ├── app.js                  # Express app setup
 ├── package.json            # Node.js dependencies and scripts
 ├── package-lock.json       # Dependency lockfile
+├── .gitignore              # git ignore file
 └── README.md               # Project documentation
 </pre>
 
