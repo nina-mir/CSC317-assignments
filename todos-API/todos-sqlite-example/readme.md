@@ -62,3 +62,8 @@ Always handle invalid requests gracefully (e.g., missing parameters, invalid inp
 Use `res.status(400)` for bad input or `res.status(404)` if the requested resource doesn’t exist.
 4. Middleware (Optional)
 If the else endpoints require middleware (e.g., logging or authentication), apply it locally to those routes using `router.use()` or globally in `app.js`.
+
+
+## Extend more --> Steps to Add Static Route
+
+**Step 1:** Create a `public/` Directory

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add To-Do</title>
+</head>
+<body>
+  <h1>Add a To-Do Item</h1>
+  <form id="todoForm">
+    <label for="task">Task:</label>
+    <input type="text" id="task" name="task" required>
+    <button type="submit">Add To-Do</button>
+  </form>
+  <div id="result"></div>
+
+  <script>
+    // JavaScript to handle form submission and send a POST request
+    document.getElementById('todoForm').addEventListener('submit', async (event) => {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Get the value from the input field
+      const task = document.getElementById('task').value;
+
+      try {
+        // Send the POST request using Fetch API
+        const response = await fetch('/todos', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ task: task }), // Convert the task to JSON
+        });
+
+        // Handle the response
+        const result = await response.json();
+        if (response.ok) {
+            console.log(result)
+          document.getElementById('result').innerText = `To-Do added: ${result.message}`;
+        } else {
+          document.getElementById('result').innerText = `Error: ${result.error || 'Failed to add to-do'}`;
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('result').innerText = 'An error occurred. Please try again.';
+      }
+    });
+  </script>
+</body>
+</html>

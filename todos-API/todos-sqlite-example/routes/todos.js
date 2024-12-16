@@ -1,6 +1,14 @@
 const express = require('express');
+const path = require('path')
 const router = express.Router();
 const { getTodos, addTodo, updateTodo, deleteTodo } = require('../models/todo');
+
+
+// Serve the to-do form at /todos/form
+router.get('/form', (req, res) => {
+  res.sendFile(path.join(__dirname, '../views/todos-form.html'));
+});
+
 
 // GET /todos - Get all todos
 router.get('/', (req, res) => {
