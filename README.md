@@ -7,7 +7,7 @@ Please navigate to each directory in the repo to access each assignment's text a
 ## Table of Contents
 || Description | Marks|
 | --- | --- |---|
-| [Assignment 0](assignment-0/README.md)| 4 sorting algorithms | 0 marks|
+| [Assignment 0](assignment-0/readme.md)| 4 sorting algorithms | 0 marks|
 | [Assignment 1](assignment-1/README.md)| Creating a Linux Ubuntu OS virtual machine | 30 marks|
 | [Assignment 2](assignment-2/README.md)| HTML website + SVG art+ GitHub Pages deployment | 100 marks|
 | [Assignment 3](assignment-3/README.md)| Two mini-courses on GitHub.com :octocat: | 20 marks|
