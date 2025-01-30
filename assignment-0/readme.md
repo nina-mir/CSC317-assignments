@@ -2,7 +2,7 @@
 Our goal is to apply basic HTML5 syntax to create a webpage based on the content in <code> content.txt</code>
 
 ### Phase.1: creating a basic html5 webpage (no CSS needed!)
-using basic HTML tags such as <pre>\<head> \<body> \<div> \<pre> \<code> \<p> \<main> \<footer></pre> 
+using basic HTML tags such as <pre>\<head> \<meta\> \<title\> \<body> \<div> \<pre> \<code> \<p> \<main> \<footer></pre> 
 create a html file based on the given content.
 
 
