@@ -11,6 +11,7 @@ We will be using id and class attributes in this phase too:
 - class: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
 - id: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
 
+helpful link: https://developer.mozilla.org/en-US/docs/Glossary/Character_reference
 
 ### Phase.2: adding basic CSS styling to our webpage
 Adding styling to create a modern-looking UI using modern CSS properties to style the text/font/spacing etc. -  
