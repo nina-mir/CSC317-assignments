@@ -1,6 +1,9 @@
 # Four Sorting Algorithms
 Our goal is to apply basic HTML5 syntax to create a webpage based on the content in <code> content.txt</code>
 
+## Deliverables
+A PDF file submitted to Canvas that includes two working hyperlinks: One for the created repo on GitHub for this assignment + One hyperlink to the deployed webpage
+
 ### Phase.1: creating a basic html5 webpage (no CSS needed!)
 Using basic HTML tags such as <pre>\<head> \<meta\> \<title\> \<body> \<header> \<div> \<pre> \<code> \<p> \<main> \<footer></pre> 
 
@@ -8,11 +11,11 @@ Using basic HTML tags such as <pre>\<head> \<meta\> \<title\> \<body> \<header> 
 > [!WARNING]
 > Incorrect use or lack of appropriate HTML5 elements will be penalized.
 
-3.  **Make** a repo on GitHubm upload your HTML file to it, then **deploy** your html file of task.1 above to the internet via GitHub Pages setting in your repo.
-4.  **Please, make sure** your deployed link is working! Corrupt links will receive ```null``` marks.
-5.  **Submit** to Canvas a PDF file with **2 HYPERLINKs**: one to your repom and one to the deployed webpage 
+2.  **Make** a repo on GitHubm upload your HTML file to it, then **deploy** your html file of task.1 above to the internet via GitHub Pages setting in your repo.
+3.  **Please, make sure** your deployed link is working! Corrupt links will receive ```null``` marks.
+4.  **Submit** to Canvas a PDF file with **2 HYPERLINKs**: one to your repo and one to the deployed webpage 
 
-We will be using id and class attributes in this phase too:
+You will be using id and class attributes in this phase too:
 
 - class: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
 - id: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
@@ -51,7 +54,7 @@ Bonus activity one: [CSS related]
 - Change the font-family of your entire document to inter on [Google Fonts](https://fonts.google.com/specimen/Inter)
 - Change the font-family of code content in your html file to [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) 
 
-Bnous activity two: [CSS related]
+Bonus activity two: [CSS related]
 - change the background of the footer element to SFSU purple color
 - change the font color of the footer element to SFSU gold color
 - change the font-style of footer content to bold styling using CSS
