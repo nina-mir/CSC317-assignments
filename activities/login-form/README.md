@@ -1,6 +1,6 @@
 # Activity: Create a Styled Login Form
 
-### Objective:
+## 📌 Objective:
 
 In this activity, you will create a simple login form using HTML and CSS. The form will include:
 
@@ -14,7 +14,7 @@ A container div with a stylish background and rounded corners.
 
 By the end of this exercise, you will have a better understanding of HTML form elements, CSS styling, and input validation.
 
-## Instructions:
+## 📌 Instructions:
 
 ### 1. Set up your HTML file:
 
@@ -71,13 +71,13 @@ Check the appearance and responsiveness of your form.
 
 Helpful Hints:
 
-Learn about HTML Forms: MDN - Forms
+Learn about HTML Forms: MDN - [Forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
-Read about Input Types: MDN - Input Types
+Read about Input Types: MDN - [Input Types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types)
 
-Styling Forms with CSS: MDN - Styling Forms
+Styling Forms with CSS: MDN - [Styling Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms)
 
-More on Email Validation: MDN - Email Input Type
+More on Email Validation: MDN - [Email Input Type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
 
 ## Challenge (Bonus Task!)
 
