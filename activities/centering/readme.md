@@ -3,30 +3,30 @@
 ## Box-model & centring elements using ```position: absolute```
 
 You are given the following two paragraphs: 
-<pre>
-    Powering over 6.3 million websites and countless APIs, Node.js is an effective cornerstone for modern applications including Walmart and Netflix. With over 2 billion annual downloads, it is one of the most used web development tools today (OpenJS Foundation). It is an excellent choice for building high-performance applications, however, we know from experience that it takes significant expertise to manage, operate and scale an application.
+```
+Powering over 6.3 million websites and countless APIs, Node.js is an effective cornerstone for modern applications including Walmart and Netflix. With over 2 billion annual downloads, it is one of the most used web development tools today (OpenJS Foundation). It is an excellent choice for building high-performance applications, however, we know from experience that it takes significant expertise to manage, operate and scale an application.
 
-    Over the years, Platformatic's co-founders Luca Maraschi and Matteo Collina have worked with dozens of engineering teams at Fortune 500 companies to architect their most important Node.js applications. As part of the Node.js Technical Steering Committee, Matteo is immensely privileged to have a front row seat to the Node community and its evolving needs. If you’ve built Node.js applications before, you’ve probably run his code. The modules he maintains are downloaded 2.6 billion times per month, making him solely responsible for approximately 1/100 of all npm traffic.
-</pre>
+Over the years, Platformatic's co-founders Luca Maraschi and Matteo Collina have worked with dozens of engineering teams at Fortune 500 companies to architect their most important Node.js applications. As part of the Node.js Technical Steering Committee, Matteo is immensely privileged to have a front row seat to the Node community and its evolving needs. If you’ve built Node.js applications before, you’ve probably run his code. The modules he maintains are downloaded 2.6 billion times per month, making him solely responsible for approximately 1/100 of all npm traffic.
+```
 you are asked to create the following output with the above given text:
 
-<img width="500" src="result.png" alt="result of the activity is a centered div elment with two pargraphs">
+<img width="600" src="result.png" alt="result of the activity is a centered div elment with two pargraphs">
 
 The result is centered both vertically and horizontally in the viewport. 
 
 ## Steps
 ### setup
-1. create a directory on your machine today's date under your CSC317 folder.
-2. create an html file in that folder called box.html and populate it with boilerplate html
-3. make sure your html document is a valid html5 document and give it a title of box centring
-4. link to a CSS file in the head of your html doc. the CSS file is called box.css
+1. create a ```today-date``` directory in the CSC317 folder on your machine.
+2. create an html file in that folder called ```box.html``` and populate it with boilerplate html
+3. make sure your html document is a valid ```html5``` document and give it a title of "box centring"
+4. link to a ```CSS``` file in the head of your html doc. the CSS file is called ```box.css```
 5. within the ```<body>``` of your html doc, create a ```<div class="wrapper">```
 6. nest two paragraph elements in the div matching the given text
 
 ### CSS styling
-c1. overwrite padding and margin values globally to zero. hint: *
+c1. overwrite padding and margin values globally to zero. hint: ```*```
 
-c2. make sure ```body``` has a background color of #f8f8f8.
+c2. make sure ```body``` has a background color of ```#f8f8f8```.
 
 aside: you could also make sure ```body``` covers the 100% of the viewport height hint: ```height:100vh;```. this is not needed for this activity but is needed when we try to do the same thing using ```flexbox``` layout. 
 
@@ -62,3 +62,13 @@ transform: translate(-50%, -50%);
 
 Please have a look at this ***amazing*** article on MDN:
 https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+## Challenge: 
+
+add a hover effect so when the mouse is hovering over the text, the box-shadow disappears and a dotted border-bottom of 1px appears.
+
+
+hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
+
+
+***submit your work by midnight of today to Canvas.***
