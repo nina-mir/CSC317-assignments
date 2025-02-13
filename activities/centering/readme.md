@@ -3,11 +3,11 @@
 ## Box-model & centring elements using ```position: absolute```
 
 You are given the following two paragraphs: 
-
+<pre>
     Powering over 6.3 million websites and countless APIs, Node.js is an effective cornerstone for modern applications including Walmart and Netflix. With over 2 billion annual downloads, it is one of the most used web development tools today (OpenJS Foundation). It is an excellent choice for building high-performance applications, however, we know from experience that it takes significant expertise to manage, operate and scale an application.
 
     Over the years, Platformatic's co-founders Luca Maraschi and Matteo Collina have worked with dozens of engineering teams at Fortune 500 companies to architect their most important Node.js applications. As part of the Node.js Technical Steering Committee, Matteo is immensely privileged to have a front row seat to the Node community and its evolving needs. If you’ve built Node.js applications before, you’ve probably run his code. The modules he maintains are downloaded 2.6 billion times per month, making him solely responsible for approximately 1/100 of all npm traffic.
-
+</pre>
 you are asked to create the following output with the above given text:
 
 <img width="500" src="result.png" alt="result of the activity is a centered div elment with two pargraphs">
