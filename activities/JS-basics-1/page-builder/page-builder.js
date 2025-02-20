@@ -71,4 +71,61 @@ const data = [{
     url: 'https://i.imgur.com/6o5Vuyu.jpg',
     alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
 }];
+// let's loop
 
+let counter = 0
+
+function addDivElement(idx){
+    const div = document.createElement('div')
+    const h2 = document.createElement('h2')
+    h2.textContent = data[idx].name + ' by ' + data[idx].artist
+    const description = document.createElement('p')
+    description.textContent = data[idx].description
+
+    const image = document.createElement('img')
+    image.src = data[idx].url
+    image.alt = data[idx].alt
+    image.referrerPolicy = "no-referrer"
+    image.width = 120
+
+    div.appendChild(h2)
+    div.appendChild(description)
+    div.appendChild(image)
+    
+    if (idx + 1 != data.length){
+        // div.appendChild(document.createElement('hr'))
+    }
+    document.querySelector('main').appendChild(div)
+
+}
+
+for (const item of data) {
+    addDivElement(counter)
+    counter += 1
+}
+
+// change background color
+document.querySelector('body').style.backgroundColor = 'yellow'
+
+// select main element
+document.querySelector('main').style.display = 'flex'
+document.querySelector('main').style.flexWrap = 'wrap'
+document.querySelector('main').style.justifyContent = 'center'
+document.querySelector('main').style.gap = "15px"
+
+
+// make h1 take on whole row
+document.querySelector('h1').style.flexBasis = "100%"
+
+// make all divs have a width of 30%
+
+const divList =  document.querySelectorAll('div')
+
+divList.forEach((item) => {
+    item.style.width = "30%"
+})
+
+const imageList = document.querySelectorAll('img')
+imageList.forEach((item) => {
+    item.style.borderRadius = "10px"
+})

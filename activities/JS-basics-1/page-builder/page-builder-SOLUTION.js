@@ -118,7 +118,6 @@ document.querySelector('body').style.backgroundColor = "pink"
 document.querySelector('main').style.display = "flex"
 document.querySelector('main').style.flexWrap = "wrap"
 document.querySelector('h1').style.flexBasis = '100%'
-
 document.querySelectorAll('div').forEach((item) =>{
     item.style.width = "30%"
 })
