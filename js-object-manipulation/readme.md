@@ -75,11 +75,11 @@ Example:
 After running your script, the ***first element*** of ```sculptureListLengths``` object should look like this:
 ```javascript
 {
-  name: 24,
+  name: 26,
   artist: 20,
-  description: 187,
-  url: 28,
-  alt: 87
+  description: 198,
+  url: 31,
+  alt: 90
 }
 ```
 #### Step 5: Submit Your Work
