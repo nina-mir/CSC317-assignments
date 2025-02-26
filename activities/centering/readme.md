@@ -72,3 +72,5 @@ hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 
 
 ***submit your work by midnight of today to Canvas.***
+
+submit your work as one HTML file to Canvas please! 
