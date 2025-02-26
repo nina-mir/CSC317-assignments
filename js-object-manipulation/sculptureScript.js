@@ -1,10 +1,12 @@
-const sculptureList = require('./data.js'); // import data.js
+const sculptureList = require('./data.js')
+let sculptureListLengths = {}
+let count = 0
+let tmp = {}
 
-const element = sculptureList[1] // <---- comment out this line in your solution!
-
-
-// this following snippet is just to show how to iterate an object's keys
-// comment this out in your solution!
-for (const key in element){
-    console.log(`${key}: ${element[key].length}`)
+for (let i in sculptureList) {
+    tmp = Object.assign({}, sculptureList[i])
+    for (let j in tmp) {
+        tmp[j] = tmp[j].length
+    }
+    sculptureListLengths[i] = tmp
 }
