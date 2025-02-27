@@ -1,5 +1,4 @@
-/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
-
+/* remove thic comment to add @import font or CSS variables at the top of this file */
 * {
   box-sizing: border-box;
 }
@@ -42,5 +41,5 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
 

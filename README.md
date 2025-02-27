@@ -5,8 +5,14 @@ Please navigate to each directory in the repo to access each assignment's text a
 > To seek help with any technical issues, the best place is the course discord's channel found on Canvas. 
 
 ## Table of Contents
+
+[Click here for in-class activites🙂](activities)
+
+if you want a solution posted/updated for any activity, DM me on Discord please! Thanks!
+
 || Description | Marks|
 | --- | --- |---|
+| [js-object-manipulation](js-object-manipulation\readme.md)| JS array/object iteration | ?? marks|
 | [Assignment 0](assignment-0/readme.md)| 4 sorting algorithms | 0 marks|
 | [Assignment 1](assignment-1/README.md)| Creating a Linux Ubuntu OS virtual machine | 30 marks|
 | [Assignment 2](assignment-2/README.md)| HTML website + SVG art+ GitHub Pages deployment | 100 marks|

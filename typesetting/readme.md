@@ -4,22 +4,32 @@
 ##### this homework assignment is based on the material on [MDN website](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage)
 
 
-To get this assignment started, you should download the files in this directory to your local computer. You need to download index.html, style.css and the PNG file included here. 
+🌱 For a quality learning expereince, please, make sure you have reviewed the following articles on MDN prior to doing this HW:
 
-## Deliverables
+- [Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals)
+- [Styling lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists)
+- [Styling links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links)
+- [Web fonts](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts)
+
+
+
+
+🚀To get this assignment started, you should download the files in this directory to your local computer. You need to download index.html, style.css and the external-link-52.png file included here. 
+
+## Deliverables 📬
 
 Please submit to Canvas a PDF file that contains two hyperlinks:
 1. a link to the GitHub repo, so I can see your code.
-2. a link to the deployed website (you can try any service to deploy your project, GitHub Pages, Netlify, Render, etc!)
+2. a link to the deployed website (you can try any service to deploy your project, GitHub Pages, Netlify, Render, Glitch, etc!)
 
 ## Project brief
 
-You've been provided with some raw HTML for the homepage of an imaginary community college, plus some CSS that styles the page into a three column layout and provides some other rudimentary styling. You're to **write your CSS additions below the comment at the bottom of the CSS file** to make sure it's easy to mark the bits you've done. Don't worry if some of the selectors are repetitious; we'll let you off in this instance.
+You've been provided with some raw HTML for the homepage of an imaginary community college, plus some CSS that styles the page into a three column layout and provides some other rudimentary styling. You're to **write your CSS additions below the comment at the bottom of the CSS file and at the very top of the given file** to make sure it's easy to mark the parts you've done. Don't worry if some of the selectors are repetitious; we'll let you off in this instance.
 
 
 ### Fonts:
 
-First of all, choose a couple of free-to-use (Google!) fonts. Because this is a college, the fonts should be chosen to give the page a fairly serious, formal, trustworthy feel: a serif site-wide font for the general body text, coupled with a sans-serif or slab serif for the headings might be nice.
+First of all, choose a couple of free-to-use (Google!) fonts. If you have access to adobe creative cloud, check fonts there too! Because this is a college, the fonts should be chosen to give the page a fairly serious, formal, trustworthy feel: a serif site-wide font for the general body text, coupled with a sans-serif or slab serif for the headings might be nice.
 Apply your body font to the whole page, and your heading font to your headings.
 
 
@@ -78,6 +88,6 @@ Style your navigation menu so that it harmonizes with the page.
 
 The following screenshot shows an example of what the finished design could look like:
 
-<img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage/example2.png">
+<img src="typesetting-example.png">
 
 
