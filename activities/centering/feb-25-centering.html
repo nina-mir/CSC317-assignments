@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feb-25-centering</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            height: 100vh;
+            gap: 1rem;
+        }
+        div{
+            height: 300px;
+            width: 300px;
+            font-size: 1.5rem;
+            /* 1rem = 16ypx */
+            text-align: center;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .one{
+            background-color: #003049;
+            color: #EAE2B7;
+        }
+        
+        .two{
+            background-color: #D62828;
+            color: #003049;
+        }
+
+        .three{
+            background-color: #EAE2B7 ;
+            color: #D62828;
+            /* margin-left: auto; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">
+       <h1> Center-1</h1>
+    </div>
+    <div class="two">
+       <h1> Center-2</h1>
+    </div>
+    <div class="three">
+       <h1> Center-3</h1>
+    </div>
+    
+</body>
+</html>
