@@ -32,10 +32,10 @@ Using the `filter()` method, create two separate arrays:
 
 **Hint:** Check the `profession` property to determine if a person is a chemist.
 
-### Task 2: Filtering Based on Name Length
-Filter out people whose name consists of exactly **three separate names**.
+### Task 2: Filtering Based on the number of tokens in each person's name
+Filter out people whose name consists of exactly **three tokens**.
 
-**Hint:** Use `.split(' ')` on the `name` property to count the number of words in the name.
+**Hint:** Use `.split(' ')` on the `name` property to count the number of tokens in the name.
 
 ### Task 3: Exploring More Array Methods
 Try the following:
