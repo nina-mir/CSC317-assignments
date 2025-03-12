@@ -1,46 +1,151 @@
-/* General setup; do not change the given CSS code. Add your own CSS code at the bottom! */
-
+/* remove thic comment to add @import font or CSS variables at the top of this file */
+CSS variables
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+* {
+  font-size: .625rem;
 }
 
-body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
+@font-face {
+font-family:"titleFont";
+  src: url("LexendPeta-Regular.ttf");
 }
 
-/* Layout */
-
-section {
-  float: left;
-  width: 50%;
+h1 {
+  font-family: "titleFont", serif;
+  font-size: 3.5rem;
+  text-align: center;
+  letter-spacing: .5rem;
 }
 
 aside {
-  float: left;
-  width: 30%;
+  ul, li, li a, p a{
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }
 
-nav {
-  float: left;
-  width: 20%;
+
+/* nav ul li, a{
+  font-size: 2rem;
+} */
+
+/* section {
+  p, a{
+    text-indent: 1.25rem;
+    font-size: 2rem;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    word-spacing: .3rem;
+  }
+  ul li {
+    font-size: 2rem;
+  }
+  ol li, li a {
+    font-size: 2rem;
+  }
+} */
+
+section p, a, ul li, ol li, nav ul li, ul li a{
+  text-indent: 1.25rem;
+  font-size: 2rem;
+  line-height: 20px;
+  letter-spacing: .1rem;
+  word-spacing: .3rem;
 }
 
-footer {
-  clear: both;
+section ul {
+  list-style-type: circle;
 }
 
-header, section, aside, nav, footer {
-  padding: 20px;
+section ol {
+  list-style-type: upper-latin;
 }
 
-/* header and footer */
-
-header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+section h2 {
+  font-size: 2rem;
+  letter-spacing: .3rem;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
+footer p{
+  font-size: 1rem;
+}
 
+a:visited {
+  color: #9069a1;
+}
+
+a:hover {
+  color:#440b12;
+}
+
+a:focus {
+  color:#00e8d2;
+  text-decoration: none;
+  outline: none;
+}
+
+a:not(visited) {
+  color: #004e90;
+}
+
+a:active:not(focus) {
+  font-style: italic;
+  text-shadow: .15rem .15rem #00b9a5;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: .6em;
+  height: .6em;
+  margin-left: .1em;
+  margin-bottom: .25em;
+
+  background-size: 100%;
+  background-image: url(external-link-52.png);
+  
+}
