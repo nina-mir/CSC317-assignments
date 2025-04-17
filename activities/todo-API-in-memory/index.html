@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Display Todos Button -->
+    <div class="block">
+      <button id="displayTodos">Display All Todos</button>
+    </div>
+
+    <!-- Add Todo Form -->
+    <div class="block">
+      <input type="text" id="todoName" placeholder="Todo name" required>
+      <input type="text" id="todoPriority" placeholder="Priority (default: low)">
+      <input type="text" id="todoIsFun" placeholder="Is Fun? (default: true)">
+      <button id="submitTodo">Submit Todo</button>
+    </div>
+
+    <!-- Delete Todo Form -->
+    <div class="block">
+      <input type="number" id="todoIdToDelete" placeholder="Enter ID to delete">
+      <button id="deleteTodo">Delete Todo</button>
+    </div>
+
+    <!-- display items -->
+    <div class="block">
+      <pre id="todoDisplay"></pre>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
