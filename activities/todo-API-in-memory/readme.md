@@ -20,7 +20,7 @@ Each todo item is an object with the following shape:
 ```
 
 ## Project Tree
-
+```graphql
 Todos-API-in-memory 
   ├─ package.json
   ├─ server.js  
@@ -30,6 +30,7 @@ Todos-API-in-memory
   │  └─ style.css
   ├─ README.md 
   └─ .gitignore 
+  ```
 
 ## Frontend
 - HTML, CSS, and JavaScript
