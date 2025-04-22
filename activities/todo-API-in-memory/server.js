@@ -2,27 +2,37 @@
 // A simple Express.js backend for a Todo list API
 
 const express = require('express');
+const path = require('path')
 const app = express();
-const PORT = 3000;
+const port = 3000;
 
 // Middleware to parse JSON requests
 app.use(express.json());
 
-// TODO ➡️  Middleware to inlcude static content from 'public' folder
-
+// Middle ware to inlcude static content
+app.use(express.static('public'))
 
 // In-memory array to store todo items
-let todos = [];
+let todos = [
+  {
+  id: 0,
+  name: 'nina',
+  priority: 'high',
+  isComplete: false,
+  isFun: false
+}
+];
 let nextId = 1;
 
-// TODO ➡️ serve index.html from 'public' at the '/' path
+// server index.html
+app.get('/', (req, res) => {
+    res.sendFile('index.html')
+})
 
-
-
-// TODO ➡️ GET all todo items at the '/todos' path
-
-
-
+// GET all todo items
+app.get('/todos', (req, res) => {
+  res.json(todos);
+});
 
 // GET a specific todo item by ID
 app.get('/todos/:id', (req, res) => {
@@ -31,7 +41,7 @@ app.get('/todos/:id', (req, res) => {
   if (todo) {
     res.json(todo);
   } else {
-    // TODO ➡️ handle 404 status with a message of { message: 'Todo item not found' }
+    res.status(404).json({ message: 'Todo item not found' });
   }
 });
 
@@ -52,10 +62,6 @@ app.post('/todos', (req, res) => {
   };
   
   todos.push(newTodo);
-
-  // TODO ➡️ Log every incoming TODO item in a 'todo.log' file @ the root of the project
-  // In your HW, you'd INSERT a row in your db table instead of writing to file or push to array!
-
   res.status(201).json(newTodo);
 });
 
@@ -73,4 +79,6 @@ app.delete('/todos/:id', (req, res) => {
 });
 
 // Start the server
-// TODO ➡️ Start the server by listening on the specified PORT
+app.listen(port, () => {
+  console.log(`Todo API server running at http://localhost:${port}`);
+});
