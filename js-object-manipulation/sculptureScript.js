@@ -1,6 +1,6 @@
 const sculptureList = require('./data.js'); // import data.js
 
-const element = sculptureList[1] // <---- comment out this line in your solution!
+const element = sculptureList[0] // <---- comment out this line in your solution!
 
 
 // this following snippet is just to show how to iterate an object's keys

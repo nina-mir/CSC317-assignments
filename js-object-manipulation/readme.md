@@ -1,7 +1,5 @@
 # Homework Assignment: JavaScript Object Manipulation with Node.js
 
-due date: Feb.25.2025 3pm  [won't be extended for any reason, so start on it early.]
-
 ## 🎯Objective
 In this assignment, you will practice working with JavaScript objects, arrays, and loops. You will write a script in Node.js that processes a list of objects and creates a new object based on the lengths of the values in the original objects. This will help you understand how to manipulate objects and arrays in JavaScript.
 <hr/>
@@ -13,7 +11,7 @@ file - ```sculptureScript.js``` [you write your solution here!]
 
 file - ```data.js``` [given to you!]
 
-file - ```readme.md``` [this file must include the content of ```sculptureListLengths``` object that you create in your solution]
+file - ```readme.md``` [this file **must** include the content of ```sculptureListLengths``` object that you create in your solution]
 
 file - feel free to include any other files but the above 3 are the minimum acceptable submission.
 
@@ -90,7 +88,7 @@ After running your script, the ***first element*** of ```sculptureListLengths```
 node sculptureScript.js
 ```
 
-2. Create a repo on GitHub with the infor given at the begining of this document and submit a PDF file to Canvas with a hyperlink to your repo
+2. Create a repo on GitHub with the info given at the begining of this document and submit a PDF file to Canvas with a hyperlink to your repo
 
 3. Make sure your readme.md file in your repo has the required info.
 
