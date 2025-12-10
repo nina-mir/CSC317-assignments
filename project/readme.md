@@ -10,7 +10,7 @@ This project is designed to be beginner-friendly but still allow creativity and 
 ### Technical Stack
 - Backend: Node.js with Express.js
 - Database: SQLite (stored locally)
-- Frontend: HTML, CSS, and JavaScript (no need to use a templating engine like Pug or EJS)
+- Frontend: HTML, CSS, and JavaScript (not mandatory to use a templating engine like Pug or EJS)
 - Authentication: Login and registration with password hashing (e.g., bcrypt)
 - GitHub Repository with active collaboration from all team members
 - Deployed at least to [Glitch](https://glitch.com/)
