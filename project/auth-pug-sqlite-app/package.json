@@ -1,0 +1,21 @@
+{
+    "name": "auth-pug-sqlite-app",
+    "version": "1.0.0",
+    "description": "Minimal Express + Pug + SQLite login/register example with session auth",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "express": "^4.21.0",
+      "express-session": "^1.18.0",
+      "pug": "^3.0.3",
+      "sqlite3": "^5.1.7"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.0"
+    }
+  }
+  

@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+  h1 Login
+  form(method="POST", action="/login")
+    label(for="username") Username
+    input#username(type="text", name="username", required)
+
+    label(for="password") Password
+    input#password(type="password", name="password", required)
+
+    button(type="submit") Login
+
+  p
+    | Don't have an account?
+    a(href="/register") Register here.

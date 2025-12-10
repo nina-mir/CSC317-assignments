@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Your Profile
+  dl
+    dt Username
+    dd #{user.username}
+
+    dt Email
+    dd #{user.email}
+
+    dt Account Created
+    dd #{user.created_at}
+
+  a(href="/dashboard") Back to dashboard

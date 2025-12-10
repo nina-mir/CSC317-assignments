@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Dashboard
+  p
+    | Welcome,
+    strong #{currentUser.username}!
+  p
+    | Email:
+    strong #{currentUser.email}
+  p
+    a(href="/profile") View your profile
