@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Selectors Playground</title>
+  <style>
+    /* --- Baseline styles (keep) --- */
+    :root {
+      --bg: #ffffff;
+      --ink: #1f2937;
+      --muted: #6b7280;
+      --accent: #4f46e5;
+      --surface: #f9fafb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    header, main, footer { max-width: 960px; margin: 0 auto; padding: 1rem; }
+    header { display: flex; align-items: center; gap: 1rem; }
+    nav a { text-decoration: none; color: var(--muted); margin-right: 0.75rem; }
+    nav a.active { color: var(--accent); font-weight: 600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .stack > * + * { margin-top: 0.5rem; }
+    .btn {
+      display: inline-block; padding: 0.5rem 0.9rem; border-radius: 0.5rem;
+      background: var(--accent); color: white; text-decoration: none;
+    }
+    .tag {
+      display: inline-block; padding: 0.15rem 0.5rem; border-radius: 999px;
+      background: #e8eaff; color: #3730a3; font-size: 0.8rem;
+    }
+    .note { color: var(--muted); }
+
+    /* --- TODO: your CSS goes here ---
+       Follow the activity.md tasks.
+       Write your selectors & styles below this comment.
+    */
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CSS Selectors Playground</h1>
+    <nav aria-label="Main">
+      <a href="#welcome" class="active">Welcome</a>
+      <a href="#about">About</a>
+      <a href="#shop">Shop</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section 1 -->
+    <section id="welcome" class="stack">
+      <h2>Welcome</h2>
+      <p>Hi! Your mission: use selectors to style this page without adding extra classes or IDs.</p>
+      <p class="note">Pro-tip: open DevTools, inspect elements, and test selectors live.</p>
+
+      <article class="card">
+        <h3>Starter Card <span class="tag">new</span></h3>
+        <p>This is a card. In Task 2 you’ll style all <code>.card</code> elements.</p>
+        <a class="btn" href="#shop">Go to Shop</a>
+      </article>
+
+      <p class="note">This note immediately follows the .card above — perfect for the <code>.card + .note</code> challenge.</p>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="about" class="stack">
+      <h2>About</h2>
+      <article class="card">
+        <h3>Why selectors?</h3>
+        <p>Selectors let you reach into the DOM and style the right elements. Specificity matters: <strong>ID &gt; class &gt; element</strong>.</p>
+        <ul class="testimonials">
+          <li>“Selectors are like superpowers.”</li>
+          <li>“Use the right tool for the job.”</li>
+          <li>“Keep it accessible and inclusive!”</li>
+        </ul>
+      </article>
+
+      <article class="card featured">
+        <h3>Types of selectors <span class="tag">cheatsheet</span></h3>
+        <ul>
+          <li>Element/type: <code>p</code>, <code>h1</code></li>
+          <li>Class: <code>.card</code>, <code>.btn</code></li>
+          <li>ID: <code>#welcome</code>, <code>#shop</code></li>
+          <li>Pseudo-class: <code>:first-child</code>, <code>:hover</code></li>
+        </ul>
+      </article>
+
+      <div class="note">Note: You’ll style only direct child headings in a challenge using <code>.card > h3</code>.</div>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="shop" class="stack">
+      <h2>Shop</h2>
+      <ul class="products">
+        <li class="card"><h3>Sticker Pack <span class="tag">cute</span></h3><p>Accessorize your laptop!</p></li>
+        <li class="card"><h3>Theme Preset <span class="tag">a11y</span></h3><p>High contrast & inclusive.</p></li>
+        <li class="card"><h3>Debug Mug <span class="tag">dev</span></h3><p>“It works on my machine.”</p></li>
+      </ul>
+
+      <div class="grid">
+        <div class="challenge card" data-difficulty="easy">
+          <h3>Challenge: Attribute “easy”</h3>
+          <p>Style by <code>[data-difficulty="easy"]</code>.</p>
+        </div>
+        <div class="challenge card" data-difficulty="medium">
+          <h3>Challenge: Attribute “medium”</h3>
+          <p>Style by <code>[data-difficulty="medium"]</code>.</p>
+        </div>
+        <div class="challenge card" data-difficulty="hard">
+          <h3>Challenge: Attribute “hard”</h3>
+          <p>Style by <code>[data-difficulty="hard"]</code>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ — center CSS power to everyone.</p>
+  </footer>
+</body>
+</html>

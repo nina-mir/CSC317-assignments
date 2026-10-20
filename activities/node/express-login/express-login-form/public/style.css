@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 1rem;
+    box-shadow: 1px 1px 3px red;
+}

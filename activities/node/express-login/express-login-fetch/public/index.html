@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Example (Fetch)</title>
+  </head>
+  <body>
+    <h1>Login with Fetch</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username" required />
+
+    <br /><br />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required />
+
+    <br /><br />
+
+    <button id="loginBtn">Login</button>
+
+    <script>
+      document.getElementById('loginBtn').addEventListener('click', async () => {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        try {
+          // Use fetch to send the data to your backend
+          const response = await fetch('/login', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ username, password }),
+          });
+
+          if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.status);
+          }
+
+          // Get the response text (or JSON if your server returns JSON)
+          const data = await response.text();
+          alert('Server responded with: ' + data);
+        } catch (error) {
+          console.error('Error during fetch:', error);
+          alert('Error: ' + error.message);
+        }
+      });
+    </script>
+  </body>
+</html>

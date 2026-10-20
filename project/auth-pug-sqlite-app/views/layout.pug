@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    meta(charset="utf8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title #{title}
+    link(rel="stylesheet", href="https://unpkg.com/@picocss/pico@2/css/pico.min.css")
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    header.container
+      nav
+        ul
+          li
+            a(href="/") Auth Demo
+        ul
+          if currentUser
+            li: span Hello, #{currentUser.username}
+            li: a(href="/dashboard") Dashboard
+            li: a(href="/profile") Profile
+            li
+              form(method="POST", action="/logout")
+                button(type="submit" class="secondary") Logout
+          else
+            li: a(href="/login") Login
+            li: a(href="/register") Register
+    main.container
+      include partials/messages
+      block content
+    footer.container.footer
+      small Built with Express, Pug, SQLite, sessions, and bcryptjs.
